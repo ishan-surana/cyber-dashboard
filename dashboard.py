@@ -41,7 +41,6 @@ tab_column_mapping = {
 for tab, tab_name in zip(tabs, tab_names):
     with tab:
         drill_down_basis = tab_name
-        print(drill_down_basis)
         
         state_filter = st.multiselect(f"Select {drill_down_basis}(s)", options=df[drill_down_basis].unique(), default=df[drill_down_basis].unique())
         filtered_df = df[df[drill_down_basis].isin(state_filter)]
@@ -55,7 +54,7 @@ for tab, tab_name in zip(tabs, tab_names):
             ).properties(width=700, height=300)
         elif drill_down_basis == 'Month':
             chart = alt.Chart(incidents_by_drill_down).mark_line(point=True).encode(
-                x='Month:T',
+                x='Month:N',
                 y='Counts:Q'
             ).properties(width=700, height=300)
         else:
