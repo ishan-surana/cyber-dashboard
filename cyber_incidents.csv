@@ -1,0 +1,1001 @@
+Date,State,Sector,Attack_Type,Impact,Month,Year
+2023-01-01,Texas,Electricity,DDoS,7,01,2023
+2023-01-02,Florida,Aerospace,Phishing,22,01,2023
+2023-01-03,Texas,Finance,DDoS,2,01,2023
+2023-01-04,New York,Health,Malware,82,01,2023
+2023-01-05,Texas,Finance,DDoS,89,01,2023
+2023-01-06,Illinois,Electricity,DDoS,7,01,2023
+2023-01-07,Florida,Electricity,Phishing,51,01,2023
+2023-01-08,New York,Finance,Malware,77,01,2023
+2023-01-09,New York,Electricity,Ransomware,26,01,2023
+2023-01-10,Illinois,Oil,DDoS,46,01,2023
+2023-01-11,New York,Health,DDoS,11,01,2023
+2023-01-12,California,Health,Ransomware,87,01,2023
+2023-01-13,New York,Aerospace,Malware,43,01,2023
+2023-01-14,Florida,Aerospace,Malware,90,01,2023
+2023-01-15,California,Electricity,DDoS,93,01,2023
+2023-01-16,Florida,Electricity,DDoS,95,01,2023
+2023-01-17,New York,Finance,Data Breach,74,01,2023
+2023-01-18,New York,Aerospace,Malware,30,01,2023
+2023-01-19,New York,Electricity,Ransomware,42,01,2023
+2023-01-20,Illinois,Health,Ransomware,87,01,2023
+2023-01-21,New York,Health,Phishing,41,01,2023
+2023-01-22,New York,Oil,Malware,47,01,2023
+2023-01-23,Illinois,Health,DDoS,77,01,2023
+2023-01-24,Florida,Oil,Ransomware,65,01,2023
+2023-01-25,Texas,Aerospace,Malware,84,01,2023
+2023-01-26,New York,Oil,Data Breach,85,01,2023
+2023-01-27,New York,Health,Data Breach,64,01,2023
+2023-01-28,New York,Aerospace,Malware,77,01,2023
+2023-01-29,Florida,Oil,Malware,40,01,2023
+2023-01-30,New York,Aerospace,Phishing,84,01,2023
+2023-01-31,New York,Finance,Data Breach,34,01,2023
+2023-02-01,California,Finance,Phishing,71,02,2023
+2023-02-02,Illinois,Electricity,Ransomware,27,02,2023
+2023-02-03,Illinois,Electricity,Malware,58,02,2023
+2023-02-04,California,Aerospace,Malware,83,02,2023
+2023-02-05,New York,Finance,Malware,92,02,2023
+2023-02-06,New York,Health,Malware,38,02,2023
+2023-02-07,Illinois,Health,DDoS,84,02,2023
+2023-02-08,Florida,Electricity,Data Breach,69,02,2023
+2023-02-09,Florida,Finance,Data Breach,66,02,2023
+2023-02-10,Texas,Finance,Phishing,35,02,2023
+2023-02-11,Illinois,Electricity,Malware,28,02,2023
+2023-02-12,Texas,Aerospace,Phishing,23,02,2023
+2023-02-13,Texas,Electricity,Malware,63,02,2023
+2023-02-14,Illinois,Aerospace,Data Breach,44,02,2023
+2023-02-15,Florida,Finance,Phishing,99,02,2023
+2023-02-16,California,Health,Data Breach,53,02,2023
+2023-02-17,California,Health,DDoS,84,02,2023
+2023-02-18,Illinois,Finance,DDoS,73,02,2023
+2023-02-19,California,Health,Malware,18,02,2023
+2023-02-20,Illinois,Health,Ransomware,56,02,2023
+2023-02-21,Texas,Health,Data Breach,71,02,2023
+2023-02-22,Illinois,Aerospace,Phishing,88,02,2023
+2023-02-23,New York,Aerospace,Data Breach,36,02,2023
+2023-02-24,California,Aerospace,Data Breach,83,02,2023
+2023-02-25,Illinois,Health,Ransomware,30,02,2023
+2023-02-26,New York,Health,Phishing,96,02,2023
+2023-02-27,Florida,Electricity,Ransomware,84,02,2023
+2023-02-28,Texas,Finance,Data Breach,56,02,2023
+2023-03-01,Illinois,Oil,Malware,73,03,2023
+2023-03-02,California,Health,Ransomware,25,03,2023
+2023-03-03,Texas,Oil,DDoS,32,03,2023
+2023-03-04,Texas,Aerospace,Ransomware,48,03,2023
+2023-03-05,California,Health,Ransomware,66,03,2023
+2023-03-06,Florida,Health,Malware,60,03,2023
+2023-03-07,New York,Health,Ransomware,25,03,2023
+2023-03-08,Texas,Health,DDoS,34,03,2023
+2023-03-09,California,Electricity,Ransomware,64,03,2023
+2023-03-10,Illinois,Finance,Phishing,88,03,2023
+2023-03-11,Texas,Oil,Phishing,74,03,2023
+2023-03-12,Texas,Health,Ransomware,38,03,2023
+2023-03-13,New York,Oil,Phishing,43,03,2023
+2023-03-14,Florida,Electricity,Malware,65,03,2023
+2023-03-15,Texas,Oil,Phishing,53,03,2023
+2023-03-16,Texas,Finance,DDoS,77,03,2023
+2023-03-17,Florida,Health,Data Breach,63,03,2023
+2023-03-18,New York,Electricity,DDoS,70,03,2023
+2023-03-19,Florida,Oil,Malware,67,03,2023
+2023-03-20,California,Finance,Malware,87,03,2023
+2023-03-21,California,Oil,DDoS,6,03,2023
+2023-03-22,California,Electricity,Data Breach,99,03,2023
+2023-03-23,California,Health,Ransomware,69,03,2023
+2023-03-24,Texas,Electricity,Ransomware,30,03,2023
+2023-03-25,New York,Aerospace,Phishing,22,03,2023
+2023-03-26,New York,Aerospace,DDoS,62,03,2023
+2023-03-27,New York,Health,Malware,86,03,2023
+2023-03-28,New York,Oil,DDoS,94,03,2023
+2023-03-29,Florida,Finance,Data Breach,49,03,2023
+2023-03-30,Illinois,Oil,Data Breach,48,03,2023
+2023-03-31,Illinois,Aerospace,Ransomware,14,03,2023
+2023-04-01,Florida,Electricity,Malware,67,04,2023
+2023-04-02,Texas,Electricity,Ransomware,56,04,2023
+2023-04-03,Texas,Finance,Malware,53,04,2023
+2023-04-04,California,Finance,DDoS,92,04,2023
+2023-04-05,Florida,Finance,Malware,43,04,2023
+2023-04-06,California,Electricity,Data Breach,77,04,2023
+2023-04-07,Illinois,Oil,Data Breach,40,04,2023
+2023-04-08,Florida,Finance,DDoS,45,04,2023
+2023-04-09,New York,Finance,Ransomware,86,04,2023
+2023-04-10,New York,Aerospace,Ransomware,56,04,2023
+2023-04-11,Texas,Health,Malware,7,04,2023
+2023-04-12,New York,Health,Data Breach,64,04,2023
+2023-04-13,Illinois,Electricity,Malware,13,04,2023
+2023-04-14,Texas,Health,Malware,40,04,2023
+2023-04-15,Texas,Health,Ransomware,16,04,2023
+2023-04-16,Texas,Oil,Malware,27,04,2023
+2023-04-17,New York,Health,DDoS,90,04,2023
+2023-04-18,Illinois,Oil,DDoS,13,04,2023
+2023-04-19,New York,Aerospace,Ransomware,98,04,2023
+2023-04-20,Illinois,Electricity,Ransomware,32,04,2023
+2023-04-21,New York,Aerospace,Ransomware,79,04,2023
+2023-04-22,California,Health,Malware,37,04,2023
+2023-04-23,Illinois,Finance,Ransomware,85,04,2023
+2023-04-24,Texas,Aerospace,Data Breach,11,04,2023
+2023-04-25,Texas,Health,Malware,36,04,2023
+2023-04-26,California,Electricity,DDoS,22,04,2023
+2023-04-27,California,Aerospace,Phishing,51,04,2023
+2023-04-28,Illinois,Finance,Malware,74,04,2023
+2023-04-29,California,Oil,Malware,43,04,2023
+2023-04-30,California,Finance,DDoS,76,04,2023
+2023-05-01,New York,Electricity,Phishing,80,05,2023
+2023-05-02,Florida,Electricity,Malware,29,05,2023
+2023-05-03,California,Electricity,DDoS,95,05,2023
+2023-05-04,California,Oil,Data Breach,9,05,2023
+2023-05-05,New York,Electricity,DDoS,28,05,2023
+2023-05-06,Texas,Oil,Ransomware,17,05,2023
+2023-05-07,Illinois,Oil,DDoS,24,05,2023
+2023-05-08,Texas,Aerospace,DDoS,91,05,2023
+2023-05-09,Texas,Health,Ransomware,17,05,2023
+2023-05-10,Illinois,Finance,Ransomware,70,05,2023
+2023-05-11,California,Oil,Malware,38,05,2023
+2023-05-12,California,Electricity,Phishing,40,05,2023
+2023-05-13,New York,Finance,Malware,85,05,2023
+2023-05-14,New York,Health,DDoS,7,05,2023
+2023-05-15,Texas,Health,Ransomware,46,05,2023
+2023-05-16,Texas,Finance,Ransomware,90,05,2023
+2023-05-17,New York,Aerospace,Data Breach,10,05,2023
+2023-05-18,Florida,Health,Data Breach,75,05,2023
+2023-05-19,Texas,Oil,Phishing,87,05,2023
+2023-05-20,Florida,Electricity,DDoS,6,05,2023
+2023-05-21,Florida,Electricity,Malware,50,05,2023
+2023-05-22,Texas,Aerospace,Phishing,78,05,2023
+2023-05-23,Texas,Health,Phishing,38,05,2023
+2023-05-24,Florida,Finance,Phishing,21,05,2023
+2023-05-25,Texas,Oil,Data Breach,30,05,2023
+2023-05-26,Florida,Oil,Phishing,25,05,2023
+2023-05-27,New York,Finance,Ransomware,81,05,2023
+2023-05-28,Florida,Finance,Phishing,9,05,2023
+2023-05-29,California,Oil,Phishing,34,05,2023
+2023-05-30,Florida,Oil,DDoS,66,05,2023
+2023-05-31,California,Oil,Malware,89,05,2023
+2023-06-01,Texas,Health,Malware,92,06,2023
+2023-06-02,Florida,Electricity,Phishing,97,06,2023
+2023-06-03,California,Aerospace,DDoS,75,06,2023
+2023-06-04,New York,Health,Malware,80,06,2023
+2023-06-05,California,Electricity,Data Breach,92,06,2023
+2023-06-06,California,Finance,Phishing,29,06,2023
+2023-06-07,Florida,Health,Malware,90,06,2023
+2023-06-08,New York,Health,DDoS,75,06,2023
+2023-06-09,Texas,Electricity,Ransomware,30,06,2023
+2023-06-10,New York,Oil,Phishing,61,06,2023
+2023-06-11,Florida,Finance,DDoS,96,06,2023
+2023-06-12,Florida,Finance,Ransomware,12,06,2023
+2023-06-13,New York,Aerospace,Data Breach,99,06,2023
+2023-06-14,Texas,Electricity,Data Breach,62,06,2023
+2023-06-15,New York,Health,DDoS,90,06,2023
+2023-06-16,Texas,Electricity,Data Breach,58,06,2023
+2023-06-17,Florida,Oil,Data Breach,65,06,2023
+2023-06-18,Illinois,Finance,DDoS,85,06,2023
+2023-06-19,New York,Health,DDoS,89,06,2023
+2023-06-20,Texas,Electricity,Ransomware,75,06,2023
+2023-06-21,New York,Aerospace,Malware,77,06,2023
+2023-06-22,Illinois,Health,DDoS,11,06,2023
+2023-06-23,New York,Finance,Phishing,18,06,2023
+2023-06-24,Texas,Health,Data Breach,95,06,2023
+2023-06-25,Texas,Electricity,Ransomware,10,06,2023
+2023-06-26,California,Finance,Ransomware,68,06,2023
+2023-06-27,Illinois,Electricity,Ransomware,69,06,2023
+2023-06-28,Florida,Finance,Malware,46,06,2023
+2023-06-29,California,Finance,Data Breach,86,06,2023
+2023-06-30,Florida,Aerospace,Malware,68,06,2023
+2023-07-01,Illinois,Electricity,Data Breach,28,07,2023
+2023-07-02,California,Electricity,Phishing,3,07,2023
+2023-07-03,California,Health,Phishing,73,07,2023
+2023-07-04,Florida,Health,Phishing,2,07,2023
+2023-07-05,Florida,Health,Phishing,81,07,2023
+2023-07-06,New York,Finance,Data Breach,39,07,2023
+2023-07-07,New York,Aerospace,Data Breach,94,07,2023
+2023-07-08,Texas,Electricity,Malware,91,07,2023
+2023-07-09,Texas,Finance,Data Breach,84,07,2023
+2023-07-10,Illinois,Health,Data Breach,77,07,2023
+2023-07-11,Florida,Finance,Phishing,47,07,2023
+2023-07-12,Florida,Oil,Ransomware,8,07,2023
+2023-07-13,California,Aerospace,Malware,92,07,2023
+2023-07-14,New York,Health,Malware,71,07,2023
+2023-07-15,Florida,Electricity,Malware,74,07,2023
+2023-07-16,Illinois,Electricity,Malware,63,07,2023
+2023-07-17,Illinois,Electricity,Malware,64,07,2023
+2023-07-18,Illinois,Electricity,Ransomware,84,07,2023
+2023-07-19,Illinois,Oil,DDoS,28,07,2023
+2023-07-20,Florida,Electricity,Data Breach,98,07,2023
+2023-07-21,California,Electricity,Data Breach,85,07,2023
+2023-07-22,Texas,Finance,DDoS,70,07,2023
+2023-07-23,New York,Oil,DDoS,93,07,2023
+2023-07-24,Illinois,Aerospace,DDoS,74,07,2023
+2023-07-25,New York,Aerospace,Ransomware,2,07,2023
+2023-07-26,Illinois,Electricity,Ransomware,68,07,2023
+2023-07-27,New York,Aerospace,Data Breach,90,07,2023
+2023-07-28,Florida,Oil,Ransomware,87,07,2023
+2023-07-29,Illinois,Electricity,Ransomware,99,07,2023
+2023-07-30,Florida,Oil,Ransomware,90,07,2023
+2023-07-31,New York,Health,Data Breach,28,07,2023
+2023-08-01,California,Health,Phishing,36,08,2023
+2023-08-02,Texas,Oil,Malware,83,08,2023
+2023-08-03,Florida,Health,Malware,37,08,2023
+2023-08-04,California,Health,Phishing,72,08,2023
+2023-08-05,Florida,Finance,DDoS,80,08,2023
+2023-08-06,New York,Finance,DDoS,80,08,2023
+2023-08-07,Florida,Health,Phishing,83,08,2023
+2023-08-08,California,Aerospace,Phishing,18,08,2023
+2023-08-09,New York,Health,DDoS,29,08,2023
+2023-08-10,Florida,Aerospace,Malware,59,08,2023
+2023-08-11,Illinois,Oil,Malware,61,08,2023
+2023-08-12,Florida,Health,Data Breach,32,08,2023
+2023-08-13,Illinois,Aerospace,Phishing,6,08,2023
+2023-08-14,Texas,Finance,Ransomware,95,08,2023
+2023-08-15,Illinois,Finance,DDoS,26,08,2023
+2023-08-16,California,Aerospace,Phishing,52,08,2023
+2023-08-17,California,Aerospace,Phishing,12,08,2023
+2023-08-18,New York,Aerospace,Phishing,72,08,2023
+2023-08-19,California,Aerospace,Phishing,26,08,2023
+2023-08-20,California,Health,Malware,40,08,2023
+2023-08-21,California,Oil,DDoS,66,08,2023
+2023-08-22,Illinois,Electricity,Phishing,4,08,2023
+2023-08-23,California,Electricity,Phishing,63,08,2023
+2023-08-24,Florida,Aerospace,Phishing,35,08,2023
+2023-08-25,Texas,Finance,DDoS,9,08,2023
+2023-08-26,Florida,Oil,Malware,21,08,2023
+2023-08-27,Texas,Electricity,Phishing,20,08,2023
+2023-08-28,California,Aerospace,Phishing,21,08,2023
+2023-08-29,California,Oil,DDoS,86,08,2023
+2023-08-30,New York,Aerospace,Ransomware,2,08,2023
+2023-08-31,California,Electricity,Ransomware,40,08,2023
+2023-09-01,California,Finance,Data Breach,31,09,2023
+2023-09-02,California,Health,Malware,25,09,2023
+2023-09-03,Texas,Aerospace,Phishing,48,09,2023
+2023-09-04,Illinois,Health,Malware,47,09,2023
+2023-09-05,Florida,Aerospace,Malware,26,09,2023
+2023-09-06,California,Health,DDoS,71,09,2023
+2023-09-07,Illinois,Electricity,Ransomware,71,09,2023
+2023-09-08,Florida,Health,Ransomware,94,09,2023
+2023-09-09,Texas,Electricity,Ransomware,28,09,2023
+2023-09-10,New York,Aerospace,DDoS,73,09,2023
+2023-09-11,California,Finance,Phishing,41,09,2023
+2023-09-12,California,Oil,Phishing,16,09,2023
+2023-09-13,California,Finance,Phishing,51,09,2023
+2023-09-14,California,Aerospace,Phishing,81,09,2023
+2023-09-15,Texas,Finance,Malware,36,09,2023
+2023-09-16,California,Aerospace,Ransomware,21,09,2023
+2023-09-17,California,Aerospace,DDoS,96,09,2023
+2023-09-18,California,Oil,Malware,19,09,2023
+2023-09-19,California,Oil,Phishing,75,09,2023
+2023-09-20,California,Electricity,Malware,61,09,2023
+2023-09-21,California,Oil,DDoS,83,09,2023
+2023-09-22,New York,Health,Ransomware,8,09,2023
+2023-09-23,Florida,Electricity,Phishing,44,09,2023
+2023-09-24,Illinois,Aerospace,DDoS,63,09,2023
+2023-09-25,Texas,Aerospace,DDoS,34,09,2023
+2023-09-26,Illinois,Health,Ransomware,82,09,2023
+2023-09-27,Illinois,Aerospace,Phishing,42,09,2023
+2023-09-28,California,Finance,Malware,88,09,2023
+2023-09-29,New York,Oil,Data Breach,41,09,2023
+2023-09-30,Illinois,Finance,Malware,39,09,2023
+2023-10-01,Texas,Health,Data Breach,56,10,2023
+2023-10-02,Florida,Electricity,DDoS,10,10,2023
+2023-10-03,Florida,Finance,Malware,84,10,2023
+2023-10-04,California,Oil,Phishing,80,10,2023
+2023-10-05,Florida,Aerospace,Malware,63,10,2023
+2023-10-06,New York,Aerospace,Phishing,8,10,2023
+2023-10-07,New York,Oil,DDoS,27,10,2023
+2023-10-08,Florida,Aerospace,Malware,69,10,2023
+2023-10-09,Illinois,Health,DDoS,16,10,2023
+2023-10-10,New York,Electricity,Phishing,55,10,2023
+2023-10-11,Texas,Health,Ransomware,79,10,2023
+2023-10-12,Florida,Aerospace,Malware,23,10,2023
+2023-10-13,California,Aerospace,Malware,57,10,2023
+2023-10-14,New York,Health,Data Breach,64,10,2023
+2023-10-15,Illinois,Oil,Ransomware,64,10,2023
+2023-10-16,Florida,Aerospace,Data Breach,6,10,2023
+2023-10-17,Florida,Electricity,DDoS,31,10,2023
+2023-10-18,Texas,Oil,DDoS,74,10,2023
+2023-10-19,California,Aerospace,Ransomware,88,10,2023
+2023-10-20,Florida,Aerospace,Malware,57,10,2023
+2023-10-21,Florida,Finance,Data Breach,34,10,2023
+2023-10-22,Illinois,Health,DDoS,89,10,2023
+2023-10-23,Florida,Oil,Malware,96,10,2023
+2023-10-24,Texas,Health,Data Breach,47,10,2023
+2023-10-25,California,Health,DDoS,26,10,2023
+2023-10-26,California,Finance,Malware,72,10,2023
+2023-10-27,Texas,Finance,Ransomware,84,10,2023
+2023-10-28,California,Finance,Phishing,82,10,2023
+2023-10-29,Florida,Aerospace,Malware,44,10,2023
+2023-10-30,California,Oil,Phishing,85,10,2023
+2023-10-31,Florida,Finance,Malware,59,10,2023
+2023-11-01,Florida,Electricity,DDoS,52,11,2023
+2023-11-02,New York,Health,Data Breach,38,11,2023
+2023-11-03,Illinois,Finance,Malware,8,11,2023
+2023-11-04,New York,Electricity,Ransomware,86,11,2023
+2023-11-05,New York,Oil,Phishing,95,11,2023
+2023-11-06,Illinois,Health,Malware,21,11,2023
+2023-11-07,Florida,Finance,Data Breach,4,11,2023
+2023-11-08,Texas,Health,Phishing,76,11,2023
+2023-11-09,Florida,Aerospace,Data Breach,40,11,2023
+2023-11-10,Florida,Oil,DDoS,83,11,2023
+2023-11-11,New York,Oil,Ransomware,91,11,2023
+2023-11-12,California,Finance,DDoS,34,11,2023
+2023-11-13,Illinois,Electricity,DDoS,76,11,2023
+2023-11-14,Illinois,Health,DDoS,60,11,2023
+2023-11-15,Florida,Health,Phishing,36,11,2023
+2023-11-16,California,Oil,Ransomware,86,11,2023
+2023-11-17,Texas,Health,Ransomware,17,11,2023
+2023-11-18,Texas,Oil,Ransomware,55,11,2023
+2023-11-19,New York,Electricity,Phishing,44,11,2023
+2023-11-20,Texas,Aerospace,DDoS,34,11,2023
+2023-11-21,Florida,Electricity,Data Breach,23,11,2023
+2023-11-22,New York,Health,Data Breach,40,11,2023
+2023-11-23,Illinois,Oil,Data Breach,2,11,2023
+2023-11-24,Texas,Oil,Data Breach,37,11,2023
+2023-11-25,California,Electricity,Phishing,38,11,2023
+2023-11-26,New York,Finance,Ransomware,65,11,2023
+2023-11-27,Florida,Oil,Malware,93,11,2023
+2023-11-28,New York,Electricity,Malware,64,11,2023
+2023-11-29,New York,Finance,Malware,35,11,2023
+2023-11-30,California,Finance,Phishing,28,11,2023
+2023-12-01,New York,Aerospace,Phishing,72,12,2023
+2023-12-02,California,Finance,Ransomware,44,12,2023
+2023-12-03,New York,Finance,Data Breach,55,12,2023
+2023-12-04,California,Oil,DDoS,49,12,2023
+2023-12-05,California,Aerospace,Phishing,62,12,2023
+2023-12-06,Florida,Finance,Ransomware,18,12,2023
+2023-12-07,New York,Oil,DDoS,59,12,2023
+2023-12-08,Illinois,Health,Data Breach,66,12,2023
+2023-12-09,Illinois,Health,Ransomware,57,12,2023
+2023-12-10,Texas,Finance,Malware,64,12,2023
+2023-12-11,California,Oil,Malware,32,12,2023
+2023-12-12,Florida,Health,Malware,83,12,2023
+2023-12-13,Texas,Health,DDoS,31,12,2023
+2023-12-14,Illinois,Aerospace,Phishing,59,12,2023
+2023-12-15,New York,Oil,Phishing,88,12,2023
+2023-12-16,California,Oil,Malware,46,12,2023
+2023-12-17,California,Health,DDoS,49,12,2023
+2023-12-18,California,Health,DDoS,40,12,2023
+2023-12-19,Illinois,Oil,Ransomware,84,12,2023
+2023-12-20,California,Electricity,Ransomware,63,12,2023
+2023-12-21,California,Oil,Phishing,33,12,2023
+2023-12-22,Illinois,Electricity,DDoS,50,12,2023
+2023-12-23,California,Finance,Phishing,60,12,2023
+2023-12-24,California,Electricity,Data Breach,41,12,2023
+2023-12-25,New York,Finance,Data Breach,65,12,2023
+2023-12-26,California,Finance,Malware,99,12,2023
+2023-12-27,Florida,Electricity,Phishing,42,12,2023
+2023-12-28,California,Electricity,Malware,66,12,2023
+2023-12-29,California,Electricity,Phishing,7,12,2023
+2023-12-30,Texas,Finance,Ransomware,54,12,2023
+2023-12-31,Texas,Aerospace,Ransomware,53,12,2023
+2024-01-01,Illinois,Finance,DDoS,94,01,2024
+2024-01-02,Texas,Finance,DDoS,92,01,2024
+2024-01-03,California,Health,Malware,59,01,2024
+2024-01-04,Florida,Oil,Data Breach,40,01,2024
+2024-01-05,California,Aerospace,Data Breach,68,01,2024
+2024-01-06,Illinois,Oil,Malware,31,01,2024
+2024-01-07,Florida,Oil,Ransomware,29,01,2024
+2024-01-08,Texas,Electricity,Data Breach,98,01,2024
+2024-01-09,California,Aerospace,Phishing,13,01,2024
+2024-01-10,California,Oil,Malware,28,01,2024
+2024-01-11,Illinois,Finance,Ransomware,95,01,2024
+2024-01-12,Illinois,Oil,Data Breach,97,01,2024
+2024-01-13,California,Health,Malware,25,01,2024
+2024-01-14,Illinois,Oil,Malware,4,01,2024
+2024-01-15,Texas,Finance,Data Breach,87,01,2024
+2024-01-16,Texas,Electricity,Malware,54,01,2024
+2024-01-17,New York,Health,Phishing,54,01,2024
+2024-01-18,California,Health,Ransomware,47,01,2024
+2024-01-19,Illinois,Oil,Ransomware,60,01,2024
+2024-01-20,New York,Oil,DDoS,50,01,2024
+2024-01-21,Florida,Electricity,Data Breach,76,01,2024
+2024-01-22,Texas,Aerospace,Phishing,81,01,2024
+2024-01-23,New York,Health,Data Breach,20,01,2024
+2024-01-24,California,Aerospace,Phishing,99,01,2024
+2024-01-25,Illinois,Health,Ransomware,4,01,2024
+2024-01-26,Florida,Health,Ransomware,71,01,2024
+2024-01-27,Illinois,Finance,Malware,71,01,2024
+2024-01-28,Florida,Finance,Ransomware,82,01,2024
+2024-01-29,Florida,Aerospace,Data Breach,68,01,2024
+2024-01-30,New York,Electricity,Phishing,94,01,2024
+2024-01-31,New York,Aerospace,Phishing,72,01,2024
+2024-02-01,Florida,Electricity,Ransomware,24,02,2024
+2024-02-02,California,Oil,Malware,9,02,2024
+2024-02-03,Illinois,Oil,Phishing,19,02,2024
+2024-02-04,New York,Electricity,Data Breach,12,02,2024
+2024-02-05,Florida,Electricity,Data Breach,69,02,2024
+2024-02-06,Texas,Finance,DDoS,77,02,2024
+2024-02-07,Texas,Finance,Data Breach,8,02,2024
+2024-02-08,California,Finance,Data Breach,95,02,2024
+2024-02-09,Florida,Health,Data Breach,68,02,2024
+2024-02-10,Florida,Aerospace,Data Breach,63,02,2024
+2024-02-11,Texas,Health,Data Breach,64,02,2024
+2024-02-12,Texas,Health,Malware,32,02,2024
+2024-02-13,California,Health,Phishing,74,02,2024
+2024-02-14,New York,Oil,Malware,8,02,2024
+2024-02-15,Illinois,Health,Data Breach,13,02,2024
+2024-02-16,Illinois,Aerospace,Data Breach,75,02,2024
+2024-02-17,California,Finance,Ransomware,67,02,2024
+2024-02-18,Illinois,Aerospace,Malware,61,02,2024
+2024-02-19,Illinois,Aerospace,DDoS,52,02,2024
+2024-02-20,Illinois,Health,Ransomware,88,02,2024
+2024-02-21,Texas,Finance,Data Breach,8,02,2024
+2024-02-22,Texas,Health,Malware,25,02,2024
+2024-02-23,Illinois,Oil,Ransomware,95,02,2024
+2024-02-24,New York,Finance,Phishing,6,02,2024
+2024-02-25,California,Aerospace,DDoS,88,02,2024
+2024-02-26,Illinois,Electricity,Malware,93,02,2024
+2024-02-27,California,Finance,DDoS,54,02,2024
+2024-02-28,California,Aerospace,Malware,13,02,2024
+2024-02-29,Texas,Electricity,DDoS,39,02,2024
+2024-03-01,New York,Aerospace,Ransomware,38,03,2024
+2024-03-02,New York,Electricity,Ransomware,24,03,2024
+2024-03-03,Florida,Electricity,Ransomware,27,03,2024
+2024-03-04,Florida,Oil,Ransomware,74,03,2024
+2024-03-05,Illinois,Finance,Data Breach,99,03,2024
+2024-03-06,Texas,Finance,Ransomware,82,03,2024
+2024-03-07,California,Health,Data Breach,79,03,2024
+2024-03-08,Texas,Health,Ransomware,8,03,2024
+2024-03-09,California,Health,DDoS,39,03,2024
+2024-03-10,Texas,Electricity,Malware,67,03,2024
+2024-03-11,Illinois,Health,Malware,55,03,2024
+2024-03-12,California,Aerospace,DDoS,82,03,2024
+2024-03-13,Texas,Aerospace,Phishing,51,03,2024
+2024-03-14,California,Oil,DDoS,17,03,2024
+2024-03-15,New York,Oil,Phishing,34,03,2024
+2024-03-16,New York,Oil,DDoS,77,03,2024
+2024-03-17,Illinois,Aerospace,Data Breach,90,03,2024
+2024-03-18,Texas,Health,DDoS,62,03,2024
+2024-03-19,Florida,Oil,DDoS,63,03,2024
+2024-03-20,Florida,Health,DDoS,48,03,2024
+2024-03-21,Illinois,Health,Malware,75,03,2024
+2024-03-22,Florida,Oil,DDoS,35,03,2024
+2024-03-23,Illinois,Oil,Ransomware,23,03,2024
+2024-03-24,New York,Health,Data Breach,84,03,2024
+2024-03-25,New York,Finance,DDoS,58,03,2024
+2024-03-26,California,Oil,DDoS,6,03,2024
+2024-03-27,California,Finance,DDoS,24,03,2024
+2024-03-28,Texas,Electricity,Malware,5,03,2024
+2024-03-29,Texas,Electricity,Phishing,1,03,2024
+2024-03-30,Illinois,Oil,Malware,41,03,2024
+2024-03-31,Illinois,Electricity,Ransomware,50,03,2024
+2024-04-01,California,Finance,Ransomware,95,04,2024
+2024-04-02,Texas,Health,Malware,17,04,2024
+2024-04-03,Texas,Health,DDoS,54,04,2024
+2024-04-04,Texas,Oil,DDoS,11,04,2024
+2024-04-05,Florida,Finance,Ransomware,76,04,2024
+2024-04-06,Florida,Oil,Malware,70,04,2024
+2024-04-07,Texas,Oil,Phishing,7,04,2024
+2024-04-08,New York,Aerospace,Ransomware,95,04,2024
+2024-04-09,Texas,Oil,DDoS,64,04,2024
+2024-04-10,New York,Oil,Phishing,89,04,2024
+2024-04-11,New York,Oil,Ransomware,78,04,2024
+2024-04-12,California,Health,Malware,34,04,2024
+2024-04-13,New York,Electricity,DDoS,84,04,2024
+2024-04-14,California,Health,Ransomware,37,04,2024
+2024-04-15,Florida,Finance,Data Breach,20,04,2024
+2024-04-16,Illinois,Electricity,Ransomware,3,04,2024
+2024-04-17,New York,Finance,Ransomware,8,04,2024
+2024-04-18,California,Health,DDoS,9,04,2024
+2024-04-19,Texas,Oil,Ransomware,2,04,2024
+2024-04-20,Illinois,Electricity,Data Breach,97,04,2024
+2024-04-21,California,Electricity,Ransomware,45,04,2024
+2024-04-22,Illinois,Electricity,Ransomware,58,04,2024
+2024-04-23,Florida,Electricity,Data Breach,57,04,2024
+2024-04-24,Florida,Health,Data Breach,84,04,2024
+2024-04-25,Illinois,Finance,Phishing,5,04,2024
+2024-04-26,Texas,Health,Malware,71,04,2024
+2024-04-27,Florida,Aerospace,DDoS,6,04,2024
+2024-04-28,Texas,Finance,Data Breach,44,04,2024
+2024-04-29,Texas,Aerospace,Malware,58,04,2024
+2024-04-30,California,Electricity,Phishing,28,04,2024
+2024-05-01,Illinois,Health,Malware,95,05,2024
+2024-05-02,California,Electricity,Data Breach,2,05,2024
+2024-05-03,New York,Oil,DDoS,33,05,2024
+2024-05-04,Illinois,Aerospace,Malware,51,05,2024
+2024-05-05,Florida,Electricity,Malware,97,05,2024
+2024-05-06,Illinois,Oil,Ransomware,78,05,2024
+2024-05-07,Florida,Aerospace,Malware,56,05,2024
+2024-05-08,California,Finance,Malware,65,05,2024
+2024-05-09,Florida,Electricity,Malware,59,05,2024
+2024-05-10,Texas,Finance,DDoS,18,05,2024
+2024-05-11,Texas,Oil,Malware,97,05,2024
+2024-05-12,New York,Electricity,Phishing,63,05,2024
+2024-05-13,California,Electricity,Phishing,48,05,2024
+2024-05-14,Texas,Finance,Malware,26,05,2024
+2024-05-15,Florida,Finance,Malware,93,05,2024
+2024-05-16,Texas,Health,Ransomware,25,05,2024
+2024-05-17,Texas,Health,Ransomware,11,05,2024
+2024-05-18,Texas,Health,Ransomware,5,05,2024
+2024-05-19,California,Finance,Data Breach,94,05,2024
+2024-05-20,Illinois,Finance,Ransomware,20,05,2024
+2024-05-21,Illinois,Electricity,Malware,59,05,2024
+2024-05-22,California,Health,Phishing,38,05,2024
+2024-05-23,California,Aerospace,Phishing,58,05,2024
+2024-05-24,California,Health,Malware,45,05,2024
+2024-05-25,California,Electricity,Data Breach,93,05,2024
+2024-05-26,California,Aerospace,Ransomware,90,05,2024
+2024-05-27,Illinois,Electricity,Data Breach,50,05,2024
+2024-05-28,California,Aerospace,DDoS,11,05,2024
+2024-05-29,New York,Health,Data Breach,37,05,2024
+2024-05-30,California,Oil,Phishing,1,05,2024
+2024-05-31,Florida,Electricity,Malware,2,05,2024
+2024-06-01,Florida,Oil,Ransomware,73,06,2024
+2024-06-02,New York,Oil,Data Breach,58,06,2024
+2024-06-03,Illinois,Finance,Malware,30,06,2024
+2024-06-04,California,Electricity,DDoS,6,06,2024
+2024-06-05,New York,Finance,Data Breach,46,06,2024
+2024-06-06,Florida,Electricity,Data Breach,43,06,2024
+2024-06-07,New York,Oil,Malware,48,06,2024
+2024-06-08,Illinois,Oil,DDoS,15,06,2024
+2024-06-09,Florida,Electricity,Ransomware,96,06,2024
+2024-06-10,California,Oil,DDoS,61,06,2024
+2024-06-11,California,Oil,DDoS,92,06,2024
+2024-06-12,Texas,Aerospace,Data Breach,82,06,2024
+2024-06-13,Florida,Oil,DDoS,76,06,2024
+2024-06-14,California,Health,Malware,19,06,2024
+2024-06-15,Florida,Electricity,Phishing,74,06,2024
+2024-06-16,California,Finance,Data Breach,42,06,2024
+2024-06-17,Texas,Electricity,Ransomware,8,06,2024
+2024-06-18,California,Finance,Ransomware,73,06,2024
+2024-06-19,California,Health,Data Breach,2,06,2024
+2024-06-20,Illinois,Oil,Phishing,29,06,2024
+2024-06-21,Illinois,Oil,Phishing,14,06,2024
+2024-06-22,California,Health,Data Breach,88,06,2024
+2024-06-23,California,Aerospace,Ransomware,97,06,2024
+2024-06-24,Illinois,Aerospace,Data Breach,53,06,2024
+2024-06-25,Florida,Oil,Malware,88,06,2024
+2024-06-26,New York,Health,Phishing,90,06,2024
+2024-06-27,Texas,Oil,Ransomware,18,06,2024
+2024-06-28,Texas,Oil,Malware,12,06,2024
+2024-06-29,California,Finance,Malware,93,06,2024
+2024-06-30,Florida,Finance,Ransomware,7,06,2024
+2024-07-01,Illinois,Finance,Data Breach,6,07,2024
+2024-07-02,Illinois,Finance,Data Breach,62,07,2024
+2024-07-03,Texas,Health,Phishing,76,07,2024
+2024-07-04,Texas,Aerospace,Malware,39,07,2024
+2024-07-05,California,Aerospace,Phishing,84,07,2024
+2024-07-06,California,Aerospace,Ransomware,41,07,2024
+2024-07-07,California,Aerospace,Malware,75,07,2024
+2024-07-08,Florida,Electricity,Data Breach,76,07,2024
+2024-07-09,Texas,Electricity,Data Breach,22,07,2024
+2024-07-10,Florida,Aerospace,DDoS,43,07,2024
+2024-07-11,Illinois,Finance,Malware,25,07,2024
+2024-07-12,Florida,Oil,Ransomware,69,07,2024
+2024-07-13,Texas,Electricity,Data Breach,73,07,2024
+2024-07-14,New York,Aerospace,DDoS,15,07,2024
+2024-07-15,California,Aerospace,Data Breach,31,07,2024
+2024-07-16,Florida,Health,Ransomware,80,07,2024
+2024-07-17,Texas,Electricity,Data Breach,68,07,2024
+2024-07-18,Texas,Finance,Ransomware,22,07,2024
+2024-07-19,California,Aerospace,Ransomware,67,07,2024
+2024-07-20,New York,Electricity,Data Breach,53,07,2024
+2024-07-21,California,Finance,Data Breach,94,07,2024
+2024-07-22,California,Health,Data Breach,34,07,2024
+2024-07-23,Texas,Finance,Malware,43,07,2024
+2024-07-24,New York,Aerospace,DDoS,58,07,2024
+2024-07-25,Illinois,Aerospace,Phishing,17,07,2024
+2024-07-26,New York,Finance,DDoS,41,07,2024
+2024-07-27,Florida,Aerospace,Data Breach,8,07,2024
+2024-07-28,New York,Finance,Ransomware,67,07,2024
+2024-07-29,Illinois,Oil,DDoS,81,07,2024
+2024-07-30,Texas,Aerospace,Data Breach,10,07,2024
+2024-07-31,California,Finance,DDoS,65,07,2024
+2024-08-01,Illinois,Health,Data Breach,94,08,2024
+2024-08-02,Florida,Finance,Data Breach,80,08,2024
+2024-08-03,Illinois,Electricity,Data Breach,19,08,2024
+2024-08-04,New York,Oil,Data Breach,11,08,2024
+2024-08-05,New York,Aerospace,Data Breach,68,08,2024
+2024-08-06,New York,Oil,Ransomware,73,08,2024
+2024-08-07,Illinois,Oil,Ransomware,94,08,2024
+2024-08-08,Illinois,Health,Malware,44,08,2024
+2024-08-09,Florida,Electricity,DDoS,69,08,2024
+2024-08-10,Illinois,Finance,DDoS,65,08,2024
+2024-08-11,New York,Aerospace,Data Breach,55,08,2024
+2024-08-12,Florida,Health,Data Breach,80,08,2024
+2024-08-13,New York,Oil,Malware,55,08,2024
+2024-08-14,New York,Oil,Data Breach,66,08,2024
+2024-08-15,Florida,Aerospace,DDoS,81,08,2024
+2024-08-16,Illinois,Oil,Malware,77,08,2024
+2024-08-17,Texas,Health,Data Breach,7,08,2024
+2024-08-18,New York,Oil,DDoS,4,08,2024
+2024-08-19,Florida,Aerospace,Data Breach,68,08,2024
+2024-08-20,Texas,Electricity,Malware,62,08,2024
+2024-08-21,Texas,Oil,Data Breach,88,08,2024
+2024-08-22,New York,Health,Malware,93,08,2024
+2024-08-23,Illinois,Aerospace,Data Breach,38,08,2024
+2024-08-24,Florida,Electricity,Ransomware,60,08,2024
+2024-08-25,New York,Finance,Ransomware,63,08,2024
+2024-08-26,New York,Aerospace,Phishing,11,08,2024
+2024-08-27,Florida,Finance,Ransomware,35,08,2024
+2024-08-28,Florida,Finance,Data Breach,81,08,2024
+2024-08-29,California,Health,Data Breach,5,08,2024
+2024-08-30,California,Finance,Phishing,26,08,2024
+2024-08-31,California,Oil,DDoS,38,08,2024
+2024-09-01,Illinois,Finance,DDoS,78,09,2024
+2024-09-02,Illinois,Aerospace,Data Breach,81,09,2024
+2024-09-03,Illinois,Aerospace,Ransomware,20,09,2024
+2024-09-04,Texas,Oil,Malware,46,09,2024
+2024-09-05,New York,Electricity,Malware,66,09,2024
+2024-09-06,New York,Finance,Malware,84,09,2024
+2024-09-07,Florida,Oil,Phishing,29,09,2024
+2024-09-08,Illinois,Oil,Phishing,37,09,2024
+2024-09-09,New York,Oil,Ransomware,26,09,2024
+2024-09-10,New York,Electricity,Phishing,86,09,2024
+2024-09-11,California,Finance,Ransomware,71,09,2024
+2024-09-12,Illinois,Aerospace,Phishing,74,09,2024
+2024-09-13,Illinois,Oil,Ransomware,22,09,2024
+2024-09-14,New York,Electricity,Ransomware,29,09,2024
+2024-09-15,California,Aerospace,Ransomware,90,09,2024
+2024-09-16,California,Oil,Malware,74,09,2024
+2024-09-17,Texas,Oil,DDoS,97,09,2024
+2024-09-18,Illinois,Oil,DDoS,12,09,2024
+2024-09-19,Florida,Finance,DDoS,63,09,2024
+2024-09-20,New York,Health,DDoS,7,09,2024
+2024-09-21,Florida,Health,Ransomware,87,09,2024
+2024-09-22,New York,Aerospace,DDoS,7,09,2024
+2024-09-23,Illinois,Health,Phishing,23,09,2024
+2024-09-24,Florida,Health,DDoS,81,09,2024
+2024-09-25,California,Aerospace,Ransomware,84,09,2024
+2024-09-26,Illinois,Finance,Ransomware,15,09,2024
+2024-09-27,California,Oil,DDoS,40,09,2024
+2024-09-28,California,Aerospace,DDoS,78,09,2024
+2024-09-29,Florida,Finance,Malware,61,09,2024
+2024-09-30,California,Health,Phishing,42,09,2024
+2024-10-01,California,Oil,DDoS,41,10,2024
+2024-10-02,Illinois,Finance,Data Breach,44,10,2024
+2024-10-03,Florida,Oil,Ransomware,49,10,2024
+2024-10-04,California,Aerospace,Ransomware,55,10,2024
+2024-10-05,Florida,Aerospace,Ransomware,92,10,2024
+2024-10-06,New York,Electricity,Phishing,24,10,2024
+2024-10-07,Illinois,Health,Data Breach,42,10,2024
+2024-10-08,Illinois,Electricity,DDoS,77,10,2024
+2024-10-09,Texas,Finance,Phishing,47,10,2024
+2024-10-10,Texas,Aerospace,Ransomware,96,10,2024
+2024-10-11,California,Oil,Phishing,80,10,2024
+2024-10-12,New York,Oil,Ransomware,69,10,2024
+2024-10-13,New York,Aerospace,Malware,54,10,2024
+2024-10-14,New York,Health,Data Breach,94,10,2024
+2024-10-15,California,Oil,Phishing,73,10,2024
+2024-10-16,California,Health,DDoS,48,10,2024
+2024-10-17,California,Electricity,Ransomware,44,10,2024
+2024-10-18,Illinois,Oil,Phishing,88,10,2024
+2024-10-19,Texas,Electricity,Phishing,33,10,2024
+2024-10-20,California,Aerospace,Data Breach,8,10,2024
+2024-10-21,Illinois,Oil,DDoS,51,10,2024
+2024-10-22,Florida,Health,DDoS,43,10,2024
+2024-10-23,Texas,Electricity,Phishing,17,10,2024
+2024-10-24,New York,Health,Phishing,97,10,2024
+2024-10-25,Florida,Electricity,Data Breach,77,10,2024
+2024-10-26,Illinois,Aerospace,Phishing,31,10,2024
+2024-10-27,New York,Aerospace,Malware,34,10,2024
+2024-10-28,Texas,Aerospace,Data Breach,9,10,2024
+2024-10-29,Texas,Electricity,DDoS,11,10,2024
+2024-10-30,New York,Oil,Ransomware,40,10,2024
+2024-10-31,Florida,Health,Data Breach,93,10,2024
+2024-11-01,Texas,Finance,Data Breach,18,11,2024
+2024-11-02,New York,Finance,DDoS,65,11,2024
+2024-11-03,Illinois,Electricity,Ransomware,83,11,2024
+2024-11-04,Illinois,Electricity,Malware,52,11,2024
+2024-11-05,Illinois,Electricity,Malware,57,11,2024
+2024-11-06,Florida,Finance,Ransomware,24,11,2024
+2024-11-07,New York,Aerospace,Phishing,34,11,2024
+2024-11-08,Florida,Health,Data Breach,84,11,2024
+2024-11-09,New York,Oil,DDoS,29,11,2024
+2024-11-10,Illinois,Health,Data Breach,13,11,2024
+2024-11-11,Texas,Finance,Ransomware,35,11,2024
+2024-11-12,Illinois,Health,Malware,13,11,2024
+2024-11-13,Florida,Electricity,Malware,59,11,2024
+2024-11-14,Texas,Oil,Data Breach,44,11,2024
+2024-11-15,New York,Health,Data Breach,67,11,2024
+2024-11-16,Illinois,Finance,DDoS,94,11,2024
+2024-11-17,California,Aerospace,DDoS,78,11,2024
+2024-11-18,California,Aerospace,Data Breach,44,11,2024
+2024-11-19,New York,Aerospace,Data Breach,82,11,2024
+2024-11-20,Illinois,Electricity,DDoS,39,11,2024
+2024-11-21,California,Oil,Phishing,23,11,2024
+2024-11-22,Florida,Aerospace,DDoS,91,11,2024
+2024-11-23,New York,Oil,Phishing,66,11,2024
+2024-11-24,New York,Oil,Data Breach,11,11,2024
+2024-11-25,New York,Finance,Phishing,18,11,2024
+2024-11-26,New York,Electricity,Malware,74,11,2024
+2024-11-27,California,Aerospace,Malware,30,11,2024
+2024-11-28,Illinois,Aerospace,Malware,70,11,2024
+2024-11-29,Texas,Health,DDoS,54,11,2024
+2024-11-30,Texas,Electricity,Malware,52,11,2024
+2024-12-01,Florida,Electricity,Phishing,83,12,2024
+2024-12-02,Illinois,Aerospace,Malware,45,12,2024
+2024-12-03,Illinois,Oil,DDoS,5,12,2024
+2024-12-04,Texas,Electricity,DDoS,23,12,2024
+2024-12-05,Illinois,Finance,Ransomware,59,12,2024
+2024-12-06,Florida,Finance,Malware,90,12,2024
+2024-12-07,Florida,Aerospace,Malware,82,12,2024
+2024-12-08,New York,Electricity,Malware,21,12,2024
+2024-12-09,New York,Finance,Data Breach,60,12,2024
+2024-12-10,Illinois,Health,Malware,46,12,2024
+2024-12-11,California,Electricity,Malware,31,12,2024
+2024-12-12,California,Oil,DDoS,22,12,2024
+2024-12-13,Illinois,Health,DDoS,39,12,2024
+2024-12-14,Illinois,Electricity,Phishing,16,12,2024
+2024-12-15,California,Health,DDoS,82,12,2024
+2024-12-16,New York,Health,DDoS,40,12,2024
+2024-12-17,Illinois,Aerospace,Malware,53,12,2024
+2024-12-18,Illinois,Oil,Malware,88,12,2024
+2024-12-19,Florida,Finance,DDoS,5,12,2024
+2024-12-20,Illinois,Health,Malware,47,12,2024
+2024-12-21,New York,Electricity,DDoS,91,12,2024
+2024-12-22,California,Health,DDoS,94,12,2024
+2024-12-23,California,Oil,DDoS,66,12,2024
+2024-12-24,Texas,Finance,Malware,91,12,2024
+2024-12-25,Florida,Electricity,Ransomware,29,12,2024
+2024-12-26,Illinois,Finance,DDoS,10,12,2024
+2024-12-27,California,Aerospace,Malware,9,12,2024
+2024-12-28,Illinois,Aerospace,DDoS,2,12,2024
+2024-12-29,New York,Oil,Data Breach,54,12,2024
+2024-12-30,New York,Electricity,Data Breach,23,12,2024
+2024-12-31,California,Electricity,Ransomware,88,12,2024
+2025-01-01,Florida,Oil,Data Breach,45,01,2025
+2025-01-02,California,Aerospace,DDoS,55,01,2025
+2025-01-03,California,Finance,Data Breach,80,01,2025
+2025-01-04,Texas,Electricity,Phishing,61,01,2025
+2025-01-05,Illinois,Health,Data Breach,68,01,2025
+2025-01-06,Illinois,Electricity,Data Breach,87,01,2025
+2025-01-07,California,Oil,Data Breach,48,01,2025
+2025-01-08,New York,Health,Malware,61,01,2025
+2025-01-09,New York,Aerospace,Data Breach,34,01,2025
+2025-01-10,Illinois,Electricity,Ransomware,44,01,2025
+2025-01-11,Florida,Oil,Malware,62,01,2025
+2025-01-12,New York,Health,Phishing,15,01,2025
+2025-01-13,New York,Finance,Data Breach,94,01,2025
+2025-01-14,California,Oil,Malware,94,01,2025
+2025-01-15,New York,Health,Ransomware,70,01,2025
+2025-01-16,Illinois,Aerospace,Ransomware,30,01,2025
+2025-01-17,Florida,Health,Phishing,16,01,2025
+2025-01-18,Texas,Aerospace,Data Breach,98,01,2025
+2025-01-19,New York,Finance,Data Breach,67,01,2025
+2025-01-20,Florida,Health,Malware,58,01,2025
+2025-01-21,Illinois,Aerospace,Ransomware,38,01,2025
+2025-01-22,New York,Finance,Malware,47,01,2025
+2025-01-23,Illinois,Electricity,Malware,19,01,2025
+2025-01-24,California,Finance,Ransomware,74,01,2025
+2025-01-25,California,Electricity,Malware,29,01,2025
+2025-01-26,Florida,Oil,Malware,83,01,2025
+2025-01-27,New York,Oil,Malware,49,01,2025
+2025-01-28,Illinois,Health,DDoS,49,01,2025
+2025-01-29,Illinois,Oil,Phishing,70,01,2025
+2025-01-30,Texas,Electricity,Phishing,62,01,2025
+2025-01-31,Illinois,Finance,Malware,77,01,2025
+2025-02-01,Illinois,Health,Data Breach,11,02,2025
+2025-02-02,Texas,Oil,Ransomware,30,02,2025
+2025-02-03,Illinois,Oil,Malware,32,02,2025
+2025-02-04,Illinois,Health,Malware,75,02,2025
+2025-02-05,New York,Health,Malware,74,02,2025
+2025-02-06,California,Electricity,Ransomware,99,02,2025
+2025-02-07,Illinois,Aerospace,DDoS,70,02,2025
+2025-02-08,New York,Health,Phishing,1,02,2025
+2025-02-09,Texas,Electricity,Phishing,55,02,2025
+2025-02-10,California,Health,Malware,79,02,2025
+2025-02-11,New York,Oil,Ransomware,4,02,2025
+2025-02-12,Florida,Electricity,Phishing,30,02,2025
+2025-02-13,Illinois,Health,Ransomware,13,02,2025
+2025-02-14,California,Electricity,Malware,17,02,2025
+2025-02-15,Texas,Aerospace,Phishing,54,02,2025
+2025-02-16,Texas,Health,Ransomware,92,02,2025
+2025-02-17,Texas,Aerospace,Data Breach,12,02,2025
+2025-02-18,New York,Health,Phishing,59,02,2025
+2025-02-19,New York,Health,DDoS,39,02,2025
+2025-02-20,Florida,Aerospace,Ransomware,66,02,2025
+2025-02-21,Texas,Finance,Phishing,43,02,2025
+2025-02-22,California,Electricity,Phishing,93,02,2025
+2025-02-23,Florida,Finance,Malware,13,02,2025
+2025-02-24,New York,Health,DDoS,77,02,2025
+2025-02-25,New York,Oil,Phishing,55,02,2025
+2025-02-26,New York,Health,Malware,43,02,2025
+2025-02-27,Florida,Electricity,Malware,32,02,2025
+2025-02-28,California,Oil,Data Breach,5,02,2025
+2025-03-01,Texas,Electricity,DDoS,9,03,2025
+2025-03-02,Texas,Electricity,Data Breach,87,03,2025
+2025-03-03,California,Health,DDoS,90,03,2025
+2025-03-04,Texas,Health,DDoS,65,03,2025
+2025-03-05,Texas,Finance,Data Breach,22,03,2025
+2025-03-06,Florida,Health,Malware,2,03,2025
+2025-03-07,Texas,Oil,Malware,3,03,2025
+2025-03-08,Florida,Electricity,DDoS,47,03,2025
+2025-03-09,Texas,Oil,Data Breach,79,03,2025
+2025-03-10,Florida,Health,Phishing,73,03,2025
+2025-03-11,New York,Oil,DDoS,78,03,2025
+2025-03-12,New York,Electricity,Phishing,20,03,2025
+2025-03-13,Florida,Aerospace,Data Breach,6,03,2025
+2025-03-14,California,Oil,DDoS,28,03,2025
+2025-03-15,New York,Aerospace,Phishing,29,03,2025
+2025-03-16,Texas,Aerospace,Ransomware,46,03,2025
+2025-03-17,California,Finance,Malware,46,03,2025
+2025-03-18,Illinois,Oil,Data Breach,92,03,2025
+2025-03-19,New York,Electricity,DDoS,19,03,2025
+2025-03-20,Texas,Health,Malware,77,03,2025
+2025-03-21,Illinois,Health,Malware,85,03,2025
+2025-03-22,New York,Oil,Phishing,6,03,2025
+2025-03-23,Illinois,Finance,Phishing,87,03,2025
+2025-03-24,California,Finance,Ransomware,61,03,2025
+2025-03-25,Illinois,Health,Data Breach,51,03,2025
+2025-03-26,New York,Oil,Malware,93,03,2025
+2025-03-27,Texas,Finance,DDoS,54,03,2025
+2025-03-28,Illinois,Oil,DDoS,62,03,2025
+2025-03-29,California,Oil,Malware,22,03,2025
+2025-03-30,Texas,Electricity,Data Breach,18,03,2025
+2025-03-31,Florida,Health,Data Breach,65,03,2025
+2025-04-01,California,Aerospace,Data Breach,6,04,2025
+2025-04-02,Texas,Finance,Phishing,13,04,2025
+2025-04-03,Illinois,Aerospace,Malware,17,04,2025
+2025-04-04,Illinois,Oil,Phishing,74,04,2025
+2025-04-05,Florida,Oil,Phishing,38,04,2025
+2025-04-06,Florida,Electricity,Phishing,57,04,2025
+2025-04-07,Illinois,Oil,Data Breach,3,04,2025
+2025-04-08,California,Oil,Malware,4,04,2025
+2025-04-09,New York,Health,Ransomware,3,04,2025
+2025-04-10,Florida,Health,DDoS,95,04,2025
+2025-04-11,California,Aerospace,Malware,49,04,2025
+2025-04-12,Illinois,Finance,Data Breach,18,04,2025
+2025-04-13,New York,Electricity,Ransomware,65,04,2025
+2025-04-14,Florida,Finance,Ransomware,12,04,2025
+2025-04-15,California,Oil,Phishing,28,04,2025
+2025-04-16,New York,Electricity,Malware,87,04,2025
+2025-04-17,California,Oil,DDoS,2,04,2025
+2025-04-18,Texas,Electricity,DDoS,99,04,2025
+2025-04-19,Texas,Finance,Ransomware,80,04,2025
+2025-04-20,Florida,Oil,DDoS,32,04,2025
+2025-04-21,Florida,Finance,Phishing,85,04,2025
+2025-04-22,Florida,Finance,Ransomware,48,04,2025
+2025-04-23,New York,Electricity,Data Breach,27,04,2025
+2025-04-24,Florida,Oil,DDoS,62,04,2025
+2025-04-25,Illinois,Oil,DDoS,33,04,2025
+2025-04-26,Texas,Aerospace,Malware,3,04,2025
+2025-04-27,Texas,Oil,Phishing,26,04,2025
+2025-04-28,Texas,Finance,Ransomware,46,04,2025
+2025-04-29,Texas,Aerospace,DDoS,8,04,2025
+2025-04-30,California,Electricity,Malware,37,04,2025
+2025-05-01,Illinois,Electricity,Ransomware,85,05,2025
+2025-05-02,Florida,Finance,Ransomware,90,05,2025
+2025-05-03,Florida,Health,DDoS,88,05,2025
+2025-05-04,New York,Oil,Phishing,49,05,2025
+2025-05-05,Illinois,Oil,DDoS,26,05,2025
+2025-05-06,Texas,Oil,Phishing,47,05,2025
+2025-05-07,New York,Electricity,Malware,71,05,2025
+2025-05-08,Illinois,Aerospace,DDoS,14,05,2025
+2025-05-09,Illinois,Health,Data Breach,38,05,2025
+2025-05-10,Illinois,Aerospace,DDoS,98,05,2025
+2025-05-11,New York,Aerospace,DDoS,12,05,2025
+2025-05-12,Illinois,Oil,DDoS,62,05,2025
+2025-05-13,New York,Oil,Phishing,50,05,2025
+2025-05-14,Illinois,Electricity,DDoS,10,05,2025
+2025-05-15,Texas,Aerospace,Data Breach,4,05,2025
+2025-05-16,Texas,Electricity,Malware,60,05,2025
+2025-05-17,California,Finance,Ransomware,84,05,2025
+2025-05-18,Florida,Electricity,Malware,8,05,2025
+2025-05-19,Illinois,Electricity,Phishing,3,05,2025
+2025-05-20,California,Aerospace,Data Breach,58,05,2025
+2025-05-21,Texas,Oil,Ransomware,19,05,2025
+2025-05-22,Illinois,Finance,Ransomware,20,05,2025
+2025-05-23,Florida,Aerospace,Data Breach,58,05,2025
+2025-05-24,Texas,Electricity,DDoS,31,05,2025
+2025-05-25,New York,Oil,DDoS,67,05,2025
+2025-05-26,Texas,Finance,Phishing,62,05,2025
+2025-05-27,New York,Aerospace,Malware,12,05,2025
+2025-05-28,Illinois,Electricity,DDoS,68,05,2025
+2025-05-29,Florida,Aerospace,Phishing,30,05,2025
+2025-05-30,California,Aerospace,Malware,52,05,2025
+2025-05-31,Illinois,Oil,Data Breach,46,05,2025
+2025-06-01,Florida,Oil,Malware,34,06,2025
+2025-06-02,California,Oil,Phishing,78,06,2025
+2025-06-03,Texas,Finance,Data Breach,11,06,2025
+2025-06-04,Florida,Finance,Ransomware,88,06,2025
+2025-06-05,Florida,Finance,Data Breach,4,06,2025
+2025-06-06,California,Health,Phishing,23,06,2025
+2025-06-07,Illinois,Oil,DDoS,49,06,2025
+2025-06-08,Illinois,Aerospace,Ransomware,70,06,2025
+2025-06-09,Florida,Health,Phishing,48,06,2025
+2025-06-10,Florida,Electricity,Ransomware,60,06,2025
+2025-06-11,Texas,Electricity,Phishing,98,06,2025
+2025-06-12,Florida,Finance,DDoS,17,06,2025
+2025-06-13,Illinois,Aerospace,Data Breach,96,06,2025
+2025-06-14,Illinois,Electricity,Malware,57,06,2025
+2025-06-15,Illinois,Oil,Phishing,15,06,2025
+2025-06-16,Florida,Electricity,Ransomware,60,06,2025
+2025-06-17,Illinois,Electricity,Ransomware,3,06,2025
+2025-06-18,Illinois,Oil,Malware,46,06,2025
+2025-06-19,Florida,Health,DDoS,74,06,2025
+2025-06-20,Illinois,Electricity,Phishing,89,06,2025
+2025-06-21,Illinois,Finance,Ransomware,69,06,2025
+2025-06-22,California,Oil,Data Breach,58,06,2025
+2025-06-23,Illinois,Electricity,Data Breach,96,06,2025
+2025-06-24,Illinois,Aerospace,DDoS,11,06,2025
+2025-06-25,California,Health,Data Breach,40,06,2025
+2025-06-26,Texas,Oil,Malware,74,06,2025
+2025-06-27,Florida,Oil,DDoS,91,06,2025
+2025-06-28,California,Oil,DDoS,10,06,2025
+2025-06-29,Texas,Finance,Ransomware,3,06,2025
+2025-06-30,New York,Health,DDoS,54,06,2025
+2025-07-01,New York,Finance,DDoS,47,07,2025
+2025-07-02,Illinois,Health,Ransomware,19,07,2025
+2025-07-03,New York,Health,DDoS,44,07,2025
+2025-07-04,Illinois,Finance,Data Breach,80,07,2025
+2025-07-05,New York,Oil,DDoS,91,07,2025
+2025-07-06,California,Aerospace,Phishing,52,07,2025
+2025-07-07,Texas,Health,Malware,20,07,2025
+2025-07-08,Texas,Aerospace,DDoS,40,07,2025
+2025-07-09,New York,Health,Phishing,53,07,2025
+2025-07-10,Illinois,Aerospace,DDoS,77,07,2025
+2025-07-11,California,Health,Ransomware,66,07,2025
+2025-07-12,Illinois,Aerospace,DDoS,20,07,2025
+2025-07-13,Texas,Electricity,Phishing,95,07,2025
+2025-07-14,New York,Aerospace,Ransomware,6,07,2025
+2025-07-15,New York,Electricity,Data Breach,29,07,2025
+2025-07-16,Florida,Electricity,DDoS,6,07,2025
+2025-07-17,Texas,Aerospace,DDoS,84,07,2025
+2025-07-18,California,Aerospace,DDoS,63,07,2025
+2025-07-19,New York,Health,Ransomware,60,07,2025
+2025-07-20,New York,Health,Malware,5,07,2025
+2025-07-21,Illinois,Health,Malware,47,07,2025
+2025-07-22,Illinois,Aerospace,Malware,3,07,2025
+2025-07-23,California,Health,Malware,10,07,2025
+2025-07-24,New York,Aerospace,DDoS,35,07,2025
+2025-07-25,New York,Electricity,Phishing,9,07,2025
+2025-07-26,Texas,Health,Data Breach,81,07,2025
+2025-07-27,Texas,Oil,Phishing,39,07,2025
+2025-07-28,Florida,Aerospace,Ransomware,23,07,2025
+2025-07-29,Illinois,Health,Phishing,56,07,2025
+2025-07-30,New York,Oil,Ransomware,33,07,2025
+2025-07-31,California,Aerospace,Ransomware,74,07,2025
+2025-08-01,Illinois,Electricity,DDoS,41,08,2025
+2025-08-02,California,Finance,Data Breach,3,08,2025
+2025-08-03,Texas,Aerospace,Malware,50,08,2025
+2025-08-04,Illinois,Finance,Phishing,68,08,2025
+2025-08-05,Illinois,Oil,Ransomware,18,08,2025
+2025-08-06,Texas,Oil,Ransomware,93,08,2025
+2025-08-07,California,Finance,Data Breach,86,08,2025
+2025-08-08,Florida,Aerospace,DDoS,97,08,2025
+2025-08-09,Texas,Aerospace,DDoS,18,08,2025
+2025-08-10,California,Aerospace,DDoS,84,08,2025
+2025-08-11,Illinois,Electricity,DDoS,71,08,2025
+2025-08-12,Texas,Oil,Phishing,12,08,2025
+2025-08-13,New York,Oil,Malware,67,08,2025
+2025-08-14,New York,Electricity,Malware,62,08,2025
+2025-08-15,Texas,Aerospace,Ransomware,12,08,2025
+2025-08-16,Florida,Aerospace,Data Breach,17,08,2025
+2025-08-17,Texas,Finance,DDoS,62,08,2025
+2025-08-18,Florida,Health,Phishing,77,08,2025
+2025-08-19,California,Oil,Ransomware,59,08,2025
+2025-08-20,California,Health,Phishing,97,08,2025
+2025-08-21,Texas,Oil,Ransomware,6,08,2025
+2025-08-22,Texas,Oil,Malware,87,08,2025
+2025-08-23,Texas,Health,Phishing,61,08,2025
+2025-08-24,California,Finance,Ransomware,60,08,2025
+2025-08-25,Illinois,Oil,DDoS,2,08,2025
+2025-08-26,Illinois,Finance,DDoS,83,08,2025
+2025-08-27,California,Health,Data Breach,81,08,2025
+2025-08-28,New York,Aerospace,DDoS,37,08,2025
+2025-08-29,Florida,Finance,Ransomware,17,08,2025
+2025-08-30,New York,Health,Data Breach,16,08,2025
+2025-08-31,Texas,Finance,Data Breach,41,08,2025
+2025-09-01,Texas,Aerospace,Phishing,99,09,2025
+2025-09-02,New York,Oil,Ransomware,79,09,2025
+2025-09-03,Florida,Electricity,Data Breach,94,09,2025
+2025-09-04,Florida,Oil,Ransomware,97,09,2025
+2025-09-05,Texas,Finance,Ransomware,48,09,2025
+2025-09-06,Florida,Oil,Phishing,57,09,2025
+2025-09-07,Illinois,Health,Malware,83,09,2025
+2025-09-08,California,Aerospace,DDoS,55,09,2025
+2025-09-09,New York,Electricity,DDoS,85,09,2025
+2025-09-10,California,Electricity,Ransomware,25,09,2025
+2025-09-11,New York,Aerospace,Data Breach,82,09,2025
+2025-09-12,Florida,Aerospace,DDoS,67,09,2025
+2025-09-13,Texas,Aerospace,Malware,45,09,2025
+2025-09-14,Texas,Oil,Ransomware,79,09,2025
+2025-09-15,Texas,Finance,Phishing,53,09,2025
+2025-09-16,Texas,Oil,Malware,18,09,2025
+2025-09-17,Illinois,Health,Ransomware,56,09,2025
+2025-09-18,Texas,Health,Malware,26,09,2025
+2025-09-19,California,Oil,Ransomware,79,09,2025
+2025-09-20,Texas,Finance,Data Breach,81,09,2025
+2025-09-21,California,Oil,Data Breach,55,09,2025
+2025-09-22,Texas,Aerospace,Data Breach,35,09,2025
+2025-09-23,New York,Finance,DDoS,26,09,2025
+2025-09-24,Texas,Health,Phishing,94,09,2025
+2025-09-25,Florida,Oil,Phishing,49,09,2025
+2025-09-26,New York,Finance,DDoS,23,09,2025
