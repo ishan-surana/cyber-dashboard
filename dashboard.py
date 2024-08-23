@@ -55,11 +55,15 @@ if drill_down_basis == 'Sector':
         theta=alt.Theta(field="Counts", type="quantitative"),
         color=alt.Color(field="Sector", type="nominal")
     ).properties(width=700, height=300)
+elif drill_down_basis == 'Month':
+    chart = alt.Chart(incidents_by_drill_down).mark_line(point=True).encode(
+        x='Month:T',
+        y='Counts:Q'
+    ).properties(width=700, height=300)
 else:
-    month_order = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
     chart = alt.Chart(incidents_by_drill_down).mark_bar().encode(
         x='Counts:Q',
-        y=alt.Y(drill_down_basis + ':N', sort=month_order if drill_down_basis == 'Month' else None)
+        y=alt.Y(drill_down_basis + ':N', sort='-x')
     ).properties(width=700, height=300)
 st.altair_chart(chart)
 
