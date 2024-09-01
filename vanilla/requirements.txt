@@ -1,0 +1,6 @@
+flask
+numpy
+pandas
+geopandas
+matplotlib
+altair

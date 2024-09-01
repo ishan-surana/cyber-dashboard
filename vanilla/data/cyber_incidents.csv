@@ -1,0 +1,1001 @@
+Date,State,Sector,Attack_Type,Impact,Month,Year
+2023-01-01,Maharashtra,Electricity,DDoS,7,1,2023
+2023-01-02,Uttar Pradesh,Aerospace,Phishing,22,1,2023
+2023-01-03,Maharashtra,Finance,DDoS,2,1,2023
+2023-01-04,West Bengal,Health,Malware,82,1,2023
+2023-01-05,Maharashtra,Finance,DDoS,89,1,2023
+2023-01-06,Gujarat,Electricity,DDoS,7,1,2023
+2023-01-07,Uttar Pradesh,Electricity,Phishing,51,1,2023
+2023-01-08,West Bengal,Finance,Malware,77,1,2023
+2023-01-09,West Bengal,Electricity,Ransomware,26,1,2023
+2023-01-10,Gujarat,Oil,DDoS,46,1,2023
+2023-01-11,West Bengal,Health,DDoS,11,1,2023
+2023-01-12,Tamil Nadu,Health,Ransomware,87,1,2023
+2023-01-13,West Bengal,Aerospace,Malware,43,1,2023
+2023-01-14,Uttar Pradesh,Aerospace,Malware,90,1,2023
+2023-01-15,Tamil Nadu,Electricity,DDoS,93,1,2023
+2023-01-16,Uttar Pradesh,Electricity,DDoS,95,1,2023
+2023-01-17,West Bengal,Finance,Data Breach,74,1,2023
+2023-01-18,West Bengal,Aerospace,Malware,30,1,2023
+2023-01-19,West Bengal,Electricity,Ransomware,42,1,2023
+2023-01-20,Gujarat,Health,Ransomware,87,1,2023
+2023-01-21,West Bengal,Health,Phishing,41,1,2023
+2023-01-22,West Bengal,Oil,Malware,47,1,2023
+2023-01-23,Gujarat,Health,DDoS,77,1,2023
+2023-01-24,Uttar Pradesh,Oil,Ransomware,65,1,2023
+2023-01-25,Maharashtra,Aerospace,Malware,84,1,2023
+2023-01-26,West Bengal,Oil,Data Breach,85,1,2023
+2023-01-27,West Bengal,Health,Data Breach,64,1,2023
+2023-01-28,West Bengal,Aerospace,Malware,77,1,2023
+2023-01-29,Uttar Pradesh,Oil,Malware,40,1,2023
+2023-01-30,West Bengal,Aerospace,Phishing,84,1,2023
+2023-01-31,West Bengal,Finance,Data Breach,34,1,2023
+2023-02-01,Tamil Nadu,Finance,Phishing,71,2,2023
+2023-02-02,Gujarat,Electricity,Ransomware,27,2,2023
+2023-02-03,Gujarat,Electricity,Malware,58,2,2023
+2023-02-04,Tamil Nadu,Aerospace,Malware,83,2,2023
+2023-02-05,West Bengal,Finance,Malware,92,2,2023
+2023-02-06,West Bengal,Health,Malware,38,2,2023
+2023-02-07,Gujarat,Health,DDoS,84,2,2023
+2023-02-08,Uttar Pradesh,Electricity,Data Breach,69,2,2023
+2023-02-09,Uttar Pradesh,Finance,Data Breach,66,2,2023
+2023-02-10,Maharashtra,Finance,Phishing,35,2,2023
+2023-02-11,Gujarat,Electricity,Malware,28,2,2023
+2023-02-12,Maharashtra,Aerospace,Phishing,23,2,2023
+2023-02-13,Maharashtra,Electricity,Malware,63,2,2023
+2023-02-14,Gujarat,Aerospace,Data Breach,44,2,2023
+2023-02-15,Uttar Pradesh,Finance,Phishing,99,2,2023
+2023-02-16,Tamil Nadu,Health,Data Breach,53,2,2023
+2023-02-17,Tamil Nadu,Health,DDoS,84,2,2023
+2023-02-18,Gujarat,Finance,DDoS,73,2,2023
+2023-02-19,Tamil Nadu,Health,Malware,18,2,2023
+2023-02-20,Gujarat,Health,Ransomware,56,2,2023
+2023-02-21,Maharashtra,Health,Data Breach,71,2,2023
+2023-02-22,Gujarat,Aerospace,Phishing,88,2,2023
+2023-02-23,West Bengal,Aerospace,Data Breach,36,2,2023
+2023-02-24,Tamil Nadu,Aerospace,Data Breach,83,2,2023
+2023-02-25,Gujarat,Health,Ransomware,30,2,2023
+2023-02-26,West Bengal,Health,Phishing,96,2,2023
+2023-02-27,Uttar Pradesh,Electricity,Ransomware,84,2,2023
+2023-02-28,Maharashtra,Finance,Data Breach,56,2,2023
+2023-03-01,Gujarat,Oil,Malware,73,3,2023
+2023-03-02,Tamil Nadu,Health,Ransomware,25,3,2023
+2023-03-03,Maharashtra,Oil,DDoS,32,3,2023
+2023-03-04,Maharashtra,Aerospace,Ransomware,48,3,2023
+2023-03-05,Tamil Nadu,Health,Ransomware,66,3,2023
+2023-03-06,Uttar Pradesh,Health,Malware,60,3,2023
+2023-03-07,West Bengal,Health,Ransomware,25,3,2023
+2023-03-08,Maharashtra,Health,DDoS,34,3,2023
+2023-03-09,Tamil Nadu,Electricity,Ransomware,64,3,2023
+2023-03-10,Gujarat,Finance,Phishing,88,3,2023
+2023-03-11,Maharashtra,Oil,Phishing,74,3,2023
+2023-03-12,Maharashtra,Health,Ransomware,38,3,2023
+2023-03-13,West Bengal,Oil,Phishing,43,3,2023
+2023-03-14,Uttar Pradesh,Electricity,Malware,65,3,2023
+2023-03-15,Maharashtra,Oil,Phishing,53,3,2023
+2023-03-16,Maharashtra,Finance,DDoS,77,3,2023
+2023-03-17,Uttar Pradesh,Health,Data Breach,63,3,2023
+2023-03-18,West Bengal,Electricity,DDoS,70,3,2023
+2023-03-19,Uttar Pradesh,Oil,Malware,67,3,2023
+2023-03-20,Tamil Nadu,Finance,Malware,87,3,2023
+2023-03-21,Tamil Nadu,Oil,DDoS,6,3,2023
+2023-03-22,Tamil Nadu,Electricity,Data Breach,99,3,2023
+2023-03-23,Tamil Nadu,Health,Ransomware,69,3,2023
+2023-03-24,Maharashtra,Electricity,Ransomware,30,3,2023
+2023-03-25,West Bengal,Aerospace,Phishing,22,3,2023
+2023-03-26,West Bengal,Aerospace,DDoS,62,3,2023
+2023-03-27,West Bengal,Health,Malware,86,3,2023
+2023-03-28,West Bengal,Oil,DDoS,94,3,2023
+2023-03-29,Uttar Pradesh,Finance,Data Breach,49,3,2023
+2023-03-30,Gujarat,Oil,Data Breach,48,3,2023
+2023-03-31,Gujarat,Aerospace,Ransomware,14,3,2023
+2023-04-01,Uttar Pradesh,Electricity,Malware,67,4,2023
+2023-04-02,Maharashtra,Electricity,Ransomware,56,4,2023
+2023-04-03,Maharashtra,Finance,Malware,53,4,2023
+2023-04-04,Tamil Nadu,Finance,DDoS,92,4,2023
+2023-04-05,Uttar Pradesh,Finance,Malware,43,4,2023
+2023-04-06,Tamil Nadu,Electricity,Data Breach,77,4,2023
+2023-04-07,Gujarat,Oil,Data Breach,40,4,2023
+2023-04-08,Uttar Pradesh,Finance,DDoS,45,4,2023
+2023-04-09,West Bengal,Finance,Ransomware,86,4,2023
+2023-04-10,West Bengal,Aerospace,Ransomware,56,4,2023
+2023-04-11,Maharashtra,Health,Malware,7,4,2023
+2023-04-12,West Bengal,Health,Data Breach,64,4,2023
+2023-04-13,Gujarat,Electricity,Malware,13,4,2023
+2023-04-14,Maharashtra,Health,Malware,40,4,2023
+2023-04-15,Maharashtra,Health,Ransomware,16,4,2023
+2023-04-16,Maharashtra,Oil,Malware,27,4,2023
+2023-04-17,West Bengal,Health,DDoS,90,4,2023
+2023-04-18,Gujarat,Oil,DDoS,13,4,2023
+2023-04-19,West Bengal,Aerospace,Ransomware,98,4,2023
+2023-04-20,Gujarat,Electricity,Ransomware,32,4,2023
+2023-04-21,West Bengal,Aerospace,Ransomware,79,4,2023
+2023-04-22,Tamil Nadu,Health,Malware,37,4,2023
+2023-04-23,Gujarat,Finance,Ransomware,85,4,2023
+2023-04-24,Maharashtra,Aerospace,Data Breach,11,4,2023
+2023-04-25,Maharashtra,Health,Malware,36,4,2023
+2023-04-26,Tamil Nadu,Electricity,DDoS,22,4,2023
+2023-04-27,Tamil Nadu,Aerospace,Phishing,51,4,2023
+2023-04-28,Gujarat,Finance,Malware,74,4,2023
+2023-04-29,Tamil Nadu,Oil,Malware,43,4,2023
+2023-04-30,Tamil Nadu,Finance,DDoS,76,4,2023
+2023-05-01,West Bengal,Electricity,Phishing,80,5,2023
+2023-05-02,Uttar Pradesh,Electricity,Malware,29,5,2023
+2023-05-03,Tamil Nadu,Electricity,DDoS,95,5,2023
+2023-05-04,Tamil Nadu,Oil,Data Breach,9,5,2023
+2023-05-05,West Bengal,Electricity,DDoS,28,5,2023
+2023-05-06,Maharashtra,Oil,Ransomware,17,5,2023
+2023-05-07,Gujarat,Oil,DDoS,24,5,2023
+2023-05-08,Maharashtra,Aerospace,DDoS,91,5,2023
+2023-05-09,Maharashtra,Health,Ransomware,17,5,2023
+2023-05-10,Gujarat,Finance,Ransomware,70,5,2023
+2023-05-11,Tamil Nadu,Oil,Malware,38,5,2023
+2023-05-12,Tamil Nadu,Electricity,Phishing,40,5,2023
+2023-05-13,West Bengal,Finance,Malware,85,5,2023
+2023-05-14,West Bengal,Health,DDoS,7,5,2023
+2023-05-15,Maharashtra,Health,Ransomware,46,5,2023
+2023-05-16,Maharashtra,Finance,Ransomware,90,5,2023
+2023-05-17,West Bengal,Aerospace,Data Breach,10,5,2023
+2023-05-18,Uttar Pradesh,Health,Data Breach,75,5,2023
+2023-05-19,Maharashtra,Oil,Phishing,87,5,2023
+2023-05-20,Uttar Pradesh,Electricity,DDoS,6,5,2023
+2023-05-21,Uttar Pradesh,Electricity,Malware,50,5,2023
+2023-05-22,Maharashtra,Aerospace,Phishing,78,5,2023
+2023-05-23,Maharashtra,Health,Phishing,38,5,2023
+2023-05-24,Uttar Pradesh,Finance,Phishing,21,5,2023
+2023-05-25,Maharashtra,Oil,Data Breach,30,5,2023
+2023-05-26,Uttar Pradesh,Oil,Phishing,25,5,2023
+2023-05-27,West Bengal,Finance,Ransomware,81,5,2023
+2023-05-28,Uttar Pradesh,Finance,Phishing,9,5,2023
+2023-05-29,Tamil Nadu,Oil,Phishing,34,5,2023
+2023-05-30,Uttar Pradesh,Oil,DDoS,66,5,2023
+2023-05-31,Tamil Nadu,Oil,Malware,89,5,2023
+2023-06-01,Maharashtra,Health,Malware,92,6,2023
+2023-06-02,Uttar Pradesh,Electricity,Phishing,97,6,2023
+2023-06-03,Tamil Nadu,Aerospace,DDoS,75,6,2023
+2023-06-04,West Bengal,Health,Malware,80,6,2023
+2023-06-05,Tamil Nadu,Electricity,Data Breach,92,6,2023
+2023-06-06,Tamil Nadu,Finance,Phishing,29,6,2023
+2023-06-07,Uttar Pradesh,Health,Malware,90,6,2023
+2023-06-08,West Bengal,Health,DDoS,75,6,2023
+2023-06-09,Maharashtra,Electricity,Ransomware,30,6,2023
+2023-06-10,West Bengal,Oil,Phishing,61,6,2023
+2023-06-11,Uttar Pradesh,Finance,DDoS,96,6,2023
+2023-06-12,Uttar Pradesh,Finance,Ransomware,12,6,2023
+2023-06-13,West Bengal,Aerospace,Data Breach,99,6,2023
+2023-06-14,Maharashtra,Electricity,Data Breach,62,6,2023
+2023-06-15,West Bengal,Health,DDoS,90,6,2023
+2023-06-16,Maharashtra,Electricity,Data Breach,58,6,2023
+2023-06-17,Uttar Pradesh,Oil,Data Breach,65,6,2023
+2023-06-18,Gujarat,Finance,DDoS,85,6,2023
+2023-06-19,West Bengal,Health,DDoS,89,6,2023
+2023-06-20,Maharashtra,Electricity,Ransomware,75,6,2023
+2023-06-21,West Bengal,Aerospace,Malware,77,6,2023
+2023-06-22,Gujarat,Health,DDoS,11,6,2023
+2023-06-23,West Bengal,Finance,Phishing,18,6,2023
+2023-06-24,Maharashtra,Health,Data Breach,95,6,2023
+2023-06-25,Maharashtra,Electricity,Ransomware,10,6,2023
+2023-06-26,Tamil Nadu,Finance,Ransomware,68,6,2023
+2023-06-27,Gujarat,Electricity,Ransomware,69,6,2023
+2023-06-28,Uttar Pradesh,Finance,Malware,46,6,2023
+2023-06-29,Tamil Nadu,Finance,Data Breach,86,6,2023
+2023-06-30,Uttar Pradesh,Aerospace,Malware,68,6,2023
+2023-07-01,Gujarat,Electricity,Data Breach,28,7,2023
+2023-07-02,Tamil Nadu,Electricity,Phishing,3,7,2023
+2023-07-03,Tamil Nadu,Health,Phishing,73,7,2023
+2023-07-04,Uttar Pradesh,Health,Phishing,2,7,2023
+2023-07-05,Uttar Pradesh,Health,Phishing,81,7,2023
+2023-07-06,West Bengal,Finance,Data Breach,39,7,2023
+2023-07-07,West Bengal,Aerospace,Data Breach,94,7,2023
+2023-07-08,Maharashtra,Electricity,Malware,91,7,2023
+2023-07-09,Maharashtra,Finance,Data Breach,84,7,2023
+2023-07-10,Gujarat,Health,Data Breach,77,7,2023
+2023-07-11,Uttar Pradesh,Finance,Phishing,47,7,2023
+2023-07-12,Uttar Pradesh,Oil,Ransomware,8,7,2023
+2023-07-13,Tamil Nadu,Aerospace,Malware,92,7,2023
+2023-07-14,West Bengal,Health,Malware,71,7,2023
+2023-07-15,Uttar Pradesh,Electricity,Malware,74,7,2023
+2023-07-16,Gujarat,Electricity,Malware,63,7,2023
+2023-07-17,Gujarat,Electricity,Malware,64,7,2023
+2023-07-18,Gujarat,Electricity,Ransomware,84,7,2023
+2023-07-19,Gujarat,Oil,DDoS,28,7,2023
+2023-07-20,Uttar Pradesh,Electricity,Data Breach,98,7,2023
+2023-07-21,Tamil Nadu,Electricity,Data Breach,85,7,2023
+2023-07-22,Maharashtra,Finance,DDoS,70,7,2023
+2023-07-23,West Bengal,Oil,DDoS,93,7,2023
+2023-07-24,Gujarat,Aerospace,DDoS,74,7,2023
+2023-07-25,West Bengal,Aerospace,Ransomware,2,7,2023
+2023-07-26,Gujarat,Electricity,Ransomware,68,7,2023
+2023-07-27,West Bengal,Aerospace,Data Breach,90,7,2023
+2023-07-28,Uttar Pradesh,Oil,Ransomware,87,7,2023
+2023-07-29,Gujarat,Electricity,Ransomware,99,7,2023
+2023-07-30,Uttar Pradesh,Oil,Ransomware,90,7,2023
+2023-07-31,West Bengal,Health,Data Breach,28,7,2023
+2023-08-01,Tamil Nadu,Health,Phishing,36,8,2023
+2023-08-02,Maharashtra,Oil,Malware,83,8,2023
+2023-08-03,Uttar Pradesh,Health,Malware,37,8,2023
+2023-08-04,Tamil Nadu,Health,Phishing,72,8,2023
+2023-08-05,Uttar Pradesh,Finance,DDoS,80,8,2023
+2023-08-06,West Bengal,Finance,DDoS,80,8,2023
+2023-08-07,Uttar Pradesh,Health,Phishing,83,8,2023
+2023-08-08,Tamil Nadu,Aerospace,Phishing,18,8,2023
+2023-08-09,West Bengal,Health,DDoS,29,8,2023
+2023-08-10,Uttar Pradesh,Aerospace,Malware,59,8,2023
+2023-08-11,Gujarat,Oil,Malware,61,8,2023
+2023-08-12,Uttar Pradesh,Health,Data Breach,32,8,2023
+2023-08-13,Gujarat,Aerospace,Phishing,6,8,2023
+2023-08-14,Maharashtra,Finance,Ransomware,95,8,2023
+2023-08-15,Gujarat,Finance,DDoS,26,8,2023
+2023-08-16,Tamil Nadu,Aerospace,Phishing,52,8,2023
+2023-08-17,Tamil Nadu,Aerospace,Phishing,12,8,2023
+2023-08-18,West Bengal,Aerospace,Phishing,72,8,2023
+2023-08-19,Tamil Nadu,Aerospace,Phishing,26,8,2023
+2023-08-20,Tamil Nadu,Health,Malware,40,8,2023
+2023-08-21,Tamil Nadu,Oil,DDoS,66,8,2023
+2023-08-22,Gujarat,Electricity,Phishing,4,8,2023
+2023-08-23,Tamil Nadu,Electricity,Phishing,63,8,2023
+2023-08-24,Uttar Pradesh,Aerospace,Phishing,35,8,2023
+2023-08-25,Maharashtra,Finance,DDoS,9,8,2023
+2023-08-26,Uttar Pradesh,Oil,Malware,21,8,2023
+2023-08-27,Maharashtra,Electricity,Phishing,20,8,2023
+2023-08-28,Tamil Nadu,Aerospace,Phishing,21,8,2023
+2023-08-29,Tamil Nadu,Oil,DDoS,86,8,2023
+2023-08-30,West Bengal,Aerospace,Ransomware,2,8,2023
+2023-08-31,Tamil Nadu,Electricity,Ransomware,40,8,2023
+2023-09-01,Tamil Nadu,Finance,Data Breach,31,9,2023
+2023-09-02,Tamil Nadu,Health,Malware,25,9,2023
+2023-09-03,Maharashtra,Aerospace,Phishing,48,9,2023
+2023-09-04,Gujarat,Health,Malware,47,9,2023
+2023-09-05,Uttar Pradesh,Aerospace,Malware,26,9,2023
+2023-09-06,Tamil Nadu,Health,DDoS,71,9,2023
+2023-09-07,Gujarat,Electricity,Ransomware,71,9,2023
+2023-09-08,Uttar Pradesh,Health,Ransomware,94,9,2023
+2023-09-09,Maharashtra,Electricity,Ransomware,28,9,2023
+2023-09-10,West Bengal,Aerospace,DDoS,73,9,2023
+2023-09-11,Tamil Nadu,Finance,Phishing,41,9,2023
+2023-09-12,Tamil Nadu,Oil,Phishing,16,9,2023
+2023-09-13,Tamil Nadu,Finance,Phishing,51,9,2023
+2023-09-14,Tamil Nadu,Aerospace,Phishing,81,9,2023
+2023-09-15,Maharashtra,Finance,Malware,36,9,2023
+2023-09-16,Tamil Nadu,Aerospace,Ransomware,21,9,2023
+2023-09-17,Tamil Nadu,Aerospace,DDoS,96,9,2023
+2023-09-18,Tamil Nadu,Oil,Malware,19,9,2023
+2023-09-19,Tamil Nadu,Oil,Phishing,75,9,2023
+2023-09-20,Tamil Nadu,Electricity,Malware,61,9,2023
+2023-09-21,Tamil Nadu,Oil,DDoS,83,9,2023
+2023-09-22,West Bengal,Health,Ransomware,8,9,2023
+2023-09-23,Uttar Pradesh,Electricity,Phishing,44,9,2023
+2023-09-24,Gujarat,Aerospace,DDoS,63,9,2023
+2023-09-25,Maharashtra,Aerospace,DDoS,34,9,2023
+2023-09-26,Gujarat,Health,Ransomware,82,9,2023
+2023-09-27,Gujarat,Aerospace,Phishing,42,9,2023
+2023-09-28,Tamil Nadu,Finance,Malware,88,9,2023
+2023-09-29,West Bengal,Oil,Data Breach,41,9,2023
+2023-09-30,Gujarat,Finance,Malware,39,9,2023
+2023-10-01,Maharashtra,Health,Data Breach,56,10,2023
+2023-10-02,Uttar Pradesh,Electricity,DDoS,10,10,2023
+2023-10-03,Uttar Pradesh,Finance,Malware,84,10,2023
+2023-10-04,Tamil Nadu,Oil,Phishing,80,10,2023
+2023-10-05,Uttar Pradesh,Aerospace,Malware,63,10,2023
+2023-10-06,West Bengal,Aerospace,Phishing,8,10,2023
+2023-10-07,West Bengal,Oil,DDoS,27,10,2023
+2023-10-08,Uttar Pradesh,Aerospace,Malware,69,10,2023
+2023-10-09,Gujarat,Health,DDoS,16,10,2023
+2023-10-10,West Bengal,Electricity,Phishing,55,10,2023
+2023-10-11,Maharashtra,Health,Ransomware,79,10,2023
+2023-10-12,Uttar Pradesh,Aerospace,Malware,23,10,2023
+2023-10-13,Tamil Nadu,Aerospace,Malware,57,10,2023
+2023-10-14,West Bengal,Health,Data Breach,64,10,2023
+2023-10-15,Gujarat,Oil,Ransomware,64,10,2023
+2023-10-16,Uttar Pradesh,Aerospace,Data Breach,6,10,2023
+2023-10-17,Uttar Pradesh,Electricity,DDoS,31,10,2023
+2023-10-18,Maharashtra,Oil,DDoS,74,10,2023
+2023-10-19,Tamil Nadu,Aerospace,Ransomware,88,10,2023
+2023-10-20,Uttar Pradesh,Aerospace,Malware,57,10,2023
+2023-10-21,Uttar Pradesh,Finance,Data Breach,34,10,2023
+2023-10-22,Gujarat,Health,DDoS,89,10,2023
+2023-10-23,Uttar Pradesh,Oil,Malware,96,10,2023
+2023-10-24,Maharashtra,Health,Data Breach,47,10,2023
+2023-10-25,Tamil Nadu,Health,DDoS,26,10,2023
+2023-10-26,Tamil Nadu,Finance,Malware,72,10,2023
+2023-10-27,Maharashtra,Finance,Ransomware,84,10,2023
+2023-10-28,Tamil Nadu,Finance,Phishing,82,10,2023
+2023-10-29,Uttar Pradesh,Aerospace,Malware,44,10,2023
+2023-10-30,Tamil Nadu,Oil,Phishing,85,10,2023
+2023-10-31,Uttar Pradesh,Finance,Malware,59,10,2023
+2023-11-01,Uttar Pradesh,Electricity,DDoS,52,11,2023
+2023-11-02,West Bengal,Health,Data Breach,38,11,2023
+2023-11-03,Gujarat,Finance,Malware,8,11,2023
+2023-11-04,West Bengal,Electricity,Ransomware,86,11,2023
+2023-11-05,West Bengal,Oil,Phishing,95,11,2023
+2023-11-06,Gujarat,Health,Malware,21,11,2023
+2023-11-07,Uttar Pradesh,Finance,Data Breach,4,11,2023
+2023-11-08,Maharashtra,Health,Phishing,76,11,2023
+2023-11-09,Uttar Pradesh,Aerospace,Data Breach,40,11,2023
+2023-11-10,Uttar Pradesh,Oil,DDoS,83,11,2023
+2023-11-11,West Bengal,Oil,Ransomware,91,11,2023
+2023-11-12,Tamil Nadu,Finance,DDoS,34,11,2023
+2023-11-13,Gujarat,Electricity,DDoS,76,11,2023
+2023-11-14,Gujarat,Health,DDoS,60,11,2023
+2023-11-15,Uttar Pradesh,Health,Phishing,36,11,2023
+2023-11-16,Tamil Nadu,Oil,Ransomware,86,11,2023
+2023-11-17,Maharashtra,Health,Ransomware,17,11,2023
+2023-11-18,Maharashtra,Oil,Ransomware,55,11,2023
+2023-11-19,West Bengal,Electricity,Phishing,44,11,2023
+2023-11-20,Maharashtra,Aerospace,DDoS,34,11,2023
+2023-11-21,Uttar Pradesh,Electricity,Data Breach,23,11,2023
+2023-11-22,West Bengal,Health,Data Breach,40,11,2023
+2023-11-23,Gujarat,Oil,Data Breach,2,11,2023
+2023-11-24,Maharashtra,Oil,Data Breach,37,11,2023
+2023-11-25,Tamil Nadu,Electricity,Phishing,38,11,2023
+2023-11-26,West Bengal,Finance,Ransomware,65,11,2023
+2023-11-27,Uttar Pradesh,Oil,Malware,93,11,2023
+2023-11-28,West Bengal,Electricity,Malware,64,11,2023
+2023-11-29,West Bengal,Finance,Malware,35,11,2023
+2023-11-30,Tamil Nadu,Finance,Phishing,28,11,2023
+2023-12-01,West Bengal,Aerospace,Phishing,72,12,2023
+2023-12-02,Tamil Nadu,Finance,Ransomware,44,12,2023
+2023-12-03,West Bengal,Finance,Data Breach,55,12,2023
+2023-12-04,Tamil Nadu,Oil,DDoS,49,12,2023
+2023-12-05,Tamil Nadu,Aerospace,Phishing,62,12,2023
+2023-12-06,Uttar Pradesh,Finance,Ransomware,18,12,2023
+2023-12-07,West Bengal,Oil,DDoS,59,12,2023
+2023-12-08,Gujarat,Health,Data Breach,66,12,2023
+2023-12-09,Gujarat,Health,Ransomware,57,12,2023
+2023-12-10,Maharashtra,Finance,Malware,64,12,2023
+2023-12-11,Tamil Nadu,Oil,Malware,32,12,2023
+2023-12-12,Uttar Pradesh,Health,Malware,83,12,2023
+2023-12-13,Maharashtra,Health,DDoS,31,12,2023
+2023-12-14,Gujarat,Aerospace,Phishing,59,12,2023
+2023-12-15,West Bengal,Oil,Phishing,88,12,2023
+2023-12-16,Tamil Nadu,Oil,Malware,46,12,2023
+2023-12-17,Tamil Nadu,Health,DDoS,49,12,2023
+2023-12-18,Tamil Nadu,Health,DDoS,40,12,2023
+2023-12-19,Gujarat,Oil,Ransomware,84,12,2023
+2023-12-20,Tamil Nadu,Electricity,Ransomware,63,12,2023
+2023-12-21,Tamil Nadu,Oil,Phishing,33,12,2023
+2023-12-22,Gujarat,Electricity,DDoS,50,12,2023
+2023-12-23,Tamil Nadu,Finance,Phishing,60,12,2023
+2023-12-24,Tamil Nadu,Electricity,Data Breach,41,12,2023
+2023-12-25,West Bengal,Finance,Data Breach,65,12,2023
+2023-12-26,Tamil Nadu,Finance,Malware,99,12,2023
+2023-12-27,Uttar Pradesh,Electricity,Phishing,42,12,2023
+2023-12-28,Tamil Nadu,Electricity,Malware,66,12,2023
+2023-12-29,Tamil Nadu,Electricity,Phishing,7,12,2023
+2023-12-30,Maharashtra,Finance,Ransomware,54,12,2023
+2023-12-31,Maharashtra,Aerospace,Ransomware,53,12,2023
+2024-01-01,Gujarat,Finance,DDoS,94,1,2024
+2024-01-02,Maharashtra,Finance,DDoS,92,1,2024
+2024-01-03,Tamil Nadu,Health,Malware,59,1,2024
+2024-01-04,Uttar Pradesh,Oil,Data Breach,40,1,2024
+2024-01-05,Tamil Nadu,Aerospace,Data Breach,68,1,2024
+2024-01-06,Gujarat,Oil,Malware,31,1,2024
+2024-01-07,Uttar Pradesh,Oil,Ransomware,29,1,2024
+2024-01-08,Maharashtra,Electricity,Data Breach,98,1,2024
+2024-01-09,Tamil Nadu,Aerospace,Phishing,13,1,2024
+2024-01-10,Tamil Nadu,Oil,Malware,28,1,2024
+2024-01-11,Gujarat,Finance,Ransomware,95,1,2024
+2024-01-12,Gujarat,Oil,Data Breach,97,1,2024
+2024-01-13,Tamil Nadu,Health,Malware,25,1,2024
+2024-01-14,Gujarat,Oil,Malware,4,1,2024
+2024-01-15,Maharashtra,Finance,Data Breach,87,1,2024
+2024-01-16,Maharashtra,Electricity,Malware,54,1,2024
+2024-01-17,West Bengal,Health,Phishing,54,1,2024
+2024-01-18,Tamil Nadu,Health,Ransomware,47,1,2024
+2024-01-19,Gujarat,Oil,Ransomware,60,1,2024
+2024-01-20,West Bengal,Oil,DDoS,50,1,2024
+2024-01-21,Uttar Pradesh,Electricity,Data Breach,76,1,2024
+2024-01-22,Maharashtra,Aerospace,Phishing,81,1,2024
+2024-01-23,West Bengal,Health,Data Breach,20,1,2024
+2024-01-24,Tamil Nadu,Aerospace,Phishing,99,1,2024
+2024-01-25,Gujarat,Health,Ransomware,4,1,2024
+2024-01-26,Uttar Pradesh,Health,Ransomware,71,1,2024
+2024-01-27,Gujarat,Finance,Malware,71,1,2024
+2024-01-28,Uttar Pradesh,Finance,Ransomware,82,1,2024
+2024-01-29,Uttar Pradesh,Aerospace,Data Breach,68,1,2024
+2024-01-30,West Bengal,Electricity,Phishing,94,1,2024
+2024-01-31,West Bengal,Aerospace,Phishing,72,1,2024
+2024-02-01,Uttar Pradesh,Electricity,Ransomware,24,2,2024
+2024-02-02,Tamil Nadu,Oil,Malware,9,2,2024
+2024-02-03,Gujarat,Oil,Phishing,19,2,2024
+2024-02-04,West Bengal,Electricity,Data Breach,12,2,2024
+2024-02-05,Uttar Pradesh,Electricity,Data Breach,69,2,2024
+2024-02-06,Maharashtra,Finance,DDoS,77,2,2024
+2024-02-07,Maharashtra,Finance,Data Breach,8,2,2024
+2024-02-08,Tamil Nadu,Finance,Data Breach,95,2,2024
+2024-02-09,Uttar Pradesh,Health,Data Breach,68,2,2024
+2024-02-10,Uttar Pradesh,Aerospace,Data Breach,63,2,2024
+2024-02-11,Maharashtra,Health,Data Breach,64,2,2024
+2024-02-12,Maharashtra,Health,Malware,32,2,2024
+2024-02-13,Tamil Nadu,Health,Phishing,74,2,2024
+2024-02-14,West Bengal,Oil,Malware,8,2,2024
+2024-02-15,Gujarat,Health,Data Breach,13,2,2024
+2024-02-16,Gujarat,Aerospace,Data Breach,75,2,2024
+2024-02-17,Tamil Nadu,Finance,Ransomware,67,2,2024
+2024-02-18,Gujarat,Aerospace,Malware,61,2,2024
+2024-02-19,Gujarat,Aerospace,DDoS,52,2,2024
+2024-02-20,Gujarat,Health,Ransomware,88,2,2024
+2024-02-21,Maharashtra,Finance,Data Breach,8,2,2024
+2024-02-22,Maharashtra,Health,Malware,25,2,2024
+2024-02-23,Gujarat,Oil,Ransomware,95,2,2024
+2024-02-24,West Bengal,Finance,Phishing,6,2,2024
+2024-02-25,Tamil Nadu,Aerospace,DDoS,88,2,2024
+2024-02-26,Gujarat,Electricity,Malware,93,2,2024
+2024-02-27,Tamil Nadu,Finance,DDoS,54,2,2024
+2024-02-28,Tamil Nadu,Aerospace,Malware,13,2,2024
+2024-02-29,Maharashtra,Electricity,DDoS,39,2,2024
+2024-03-01,West Bengal,Aerospace,Ransomware,38,3,2024
+2024-03-02,West Bengal,Electricity,Ransomware,24,3,2024
+2024-03-03,Uttar Pradesh,Electricity,Ransomware,27,3,2024
+2024-03-04,Uttar Pradesh,Oil,Ransomware,74,3,2024
+2024-03-05,Gujarat,Finance,Data Breach,99,3,2024
+2024-03-06,Maharashtra,Finance,Ransomware,82,3,2024
+2024-03-07,Tamil Nadu,Health,Data Breach,79,3,2024
+2024-03-08,Maharashtra,Health,Ransomware,8,3,2024
+2024-03-09,Tamil Nadu,Health,DDoS,39,3,2024
+2024-03-10,Maharashtra,Electricity,Malware,67,3,2024
+2024-03-11,Gujarat,Health,Malware,55,3,2024
+2024-03-12,Tamil Nadu,Aerospace,DDoS,82,3,2024
+2024-03-13,Maharashtra,Aerospace,Phishing,51,3,2024
+2024-03-14,Tamil Nadu,Oil,DDoS,17,3,2024
+2024-03-15,West Bengal,Oil,Phishing,34,3,2024
+2024-03-16,West Bengal,Oil,DDoS,77,3,2024
+2024-03-17,Gujarat,Aerospace,Data Breach,90,3,2024
+2024-03-18,Maharashtra,Health,DDoS,62,3,2024
+2024-03-19,Uttar Pradesh,Oil,DDoS,63,3,2024
+2024-03-20,Uttar Pradesh,Health,DDoS,48,3,2024
+2024-03-21,Gujarat,Health,Malware,75,3,2024
+2024-03-22,Uttar Pradesh,Oil,DDoS,35,3,2024
+2024-03-23,Gujarat,Oil,Ransomware,23,3,2024
+2024-03-24,West Bengal,Health,Data Breach,84,3,2024
+2024-03-25,West Bengal,Finance,DDoS,58,3,2024
+2024-03-26,Tamil Nadu,Oil,DDoS,6,3,2024
+2024-03-27,Tamil Nadu,Finance,DDoS,24,3,2024
+2024-03-28,Maharashtra,Electricity,Malware,5,3,2024
+2024-03-29,Maharashtra,Electricity,Phishing,1,3,2024
+2024-03-30,Gujarat,Oil,Malware,41,3,2024
+2024-03-31,Gujarat,Electricity,Ransomware,50,3,2024
+2024-04-01,Tamil Nadu,Finance,Ransomware,95,4,2024
+2024-04-02,Maharashtra,Health,Malware,17,4,2024
+2024-04-03,Maharashtra,Health,DDoS,54,4,2024
+2024-04-04,Maharashtra,Oil,DDoS,11,4,2024
+2024-04-05,Uttar Pradesh,Finance,Ransomware,76,4,2024
+2024-04-06,Uttar Pradesh,Oil,Malware,70,4,2024
+2024-04-07,Maharashtra,Oil,Phishing,7,4,2024
+2024-04-08,West Bengal,Aerospace,Ransomware,95,4,2024
+2024-04-09,Maharashtra,Oil,DDoS,64,4,2024
+2024-04-10,West Bengal,Oil,Phishing,89,4,2024
+2024-04-11,West Bengal,Oil,Ransomware,78,4,2024
+2024-04-12,Tamil Nadu,Health,Malware,34,4,2024
+2024-04-13,West Bengal,Electricity,DDoS,84,4,2024
+2024-04-14,Tamil Nadu,Health,Ransomware,37,4,2024
+2024-04-15,Uttar Pradesh,Finance,Data Breach,20,4,2024
+2024-04-16,Gujarat,Electricity,Ransomware,3,4,2024
+2024-04-17,West Bengal,Finance,Ransomware,8,4,2024
+2024-04-18,Tamil Nadu,Health,DDoS,9,4,2024
+2024-04-19,Maharashtra,Oil,Ransomware,2,4,2024
+2024-04-20,Gujarat,Electricity,Data Breach,97,4,2024
+2024-04-21,Tamil Nadu,Electricity,Ransomware,45,4,2024
+2024-04-22,Gujarat,Electricity,Ransomware,58,4,2024
+2024-04-23,Uttar Pradesh,Electricity,Data Breach,57,4,2024
+2024-04-24,Uttar Pradesh,Health,Data Breach,84,4,2024
+2024-04-25,Gujarat,Finance,Phishing,5,4,2024
+2024-04-26,Maharashtra,Health,Malware,71,4,2024
+2024-04-27,Uttar Pradesh,Aerospace,DDoS,6,4,2024
+2024-04-28,Maharashtra,Finance,Data Breach,44,4,2024
+2024-04-29,Maharashtra,Aerospace,Malware,58,4,2024
+2024-04-30,Tamil Nadu,Electricity,Phishing,28,4,2024
+2024-05-01,Gujarat,Health,Malware,95,5,2024
+2024-05-02,Tamil Nadu,Electricity,Data Breach,2,5,2024
+2024-05-03,West Bengal,Oil,DDoS,33,5,2024
+2024-05-04,Gujarat,Aerospace,Malware,51,5,2024
+2024-05-05,Uttar Pradesh,Electricity,Malware,97,5,2024
+2024-05-06,Gujarat,Oil,Ransomware,78,5,2024
+2024-05-07,Uttar Pradesh,Aerospace,Malware,56,5,2024
+2024-05-08,Tamil Nadu,Finance,Malware,65,5,2024
+2024-05-09,Uttar Pradesh,Electricity,Malware,59,5,2024
+2024-05-10,Maharashtra,Finance,DDoS,18,5,2024
+2024-05-11,Maharashtra,Oil,Malware,97,5,2024
+2024-05-12,West Bengal,Electricity,Phishing,63,5,2024
+2024-05-13,Tamil Nadu,Electricity,Phishing,48,5,2024
+2024-05-14,Maharashtra,Finance,Malware,26,5,2024
+2024-05-15,Uttar Pradesh,Finance,Malware,93,5,2024
+2024-05-16,Maharashtra,Health,Ransomware,25,5,2024
+2024-05-17,Maharashtra,Health,Ransomware,11,5,2024
+2024-05-18,Maharashtra,Health,Ransomware,5,5,2024
+2024-05-19,Tamil Nadu,Finance,Data Breach,94,5,2024
+2024-05-20,Gujarat,Finance,Ransomware,20,5,2024
+2024-05-21,Gujarat,Electricity,Malware,59,5,2024
+2024-05-22,Tamil Nadu,Health,Phishing,38,5,2024
+2024-05-23,Tamil Nadu,Aerospace,Phishing,58,5,2024
+2024-05-24,Tamil Nadu,Health,Malware,45,5,2024
+2024-05-25,Tamil Nadu,Electricity,Data Breach,93,5,2024
+2024-05-26,Tamil Nadu,Aerospace,Ransomware,90,5,2024
+2024-05-27,Gujarat,Electricity,Data Breach,50,5,2024
+2024-05-28,Tamil Nadu,Aerospace,DDoS,11,5,2024
+2024-05-29,West Bengal,Health,Data Breach,37,5,2024
+2024-05-30,Tamil Nadu,Oil,Phishing,1,5,2024
+2024-05-31,Uttar Pradesh,Electricity,Malware,2,5,2024
+2024-06-01,Uttar Pradesh,Oil,Ransomware,73,6,2024
+2024-06-02,West Bengal,Oil,Data Breach,58,6,2024
+2024-06-03,Gujarat,Finance,Malware,30,6,2024
+2024-06-04,Tamil Nadu,Electricity,DDoS,6,6,2024
+2024-06-05,West Bengal,Finance,Data Breach,46,6,2024
+2024-06-06,Uttar Pradesh,Electricity,Data Breach,43,6,2024
+2024-06-07,West Bengal,Oil,Malware,48,6,2024
+2024-06-08,Gujarat,Oil,DDoS,15,6,2024
+2024-06-09,Uttar Pradesh,Electricity,Ransomware,96,6,2024
+2024-06-10,Tamil Nadu,Oil,DDoS,61,6,2024
+2024-06-11,Tamil Nadu,Oil,DDoS,92,6,2024
+2024-06-12,Maharashtra,Aerospace,Data Breach,82,6,2024
+2024-06-13,Uttar Pradesh,Oil,DDoS,76,6,2024
+2024-06-14,Tamil Nadu,Health,Malware,19,6,2024
+2024-06-15,Uttar Pradesh,Electricity,Phishing,74,6,2024
+2024-06-16,Tamil Nadu,Finance,Data Breach,42,6,2024
+2024-06-17,Maharashtra,Electricity,Ransomware,8,6,2024
+2024-06-18,Tamil Nadu,Finance,Ransomware,73,6,2024
+2024-06-19,Tamil Nadu,Health,Data Breach,2,6,2024
+2024-06-20,Gujarat,Oil,Phishing,29,6,2024
+2024-06-21,Gujarat,Oil,Phishing,14,6,2024
+2024-06-22,Tamil Nadu,Health,Data Breach,88,6,2024
+2024-06-23,Tamil Nadu,Aerospace,Ransomware,97,6,2024
+2024-06-24,Gujarat,Aerospace,Data Breach,53,6,2024
+2024-06-25,Uttar Pradesh,Oil,Malware,88,6,2024
+2024-06-26,West Bengal,Health,Phishing,90,6,2024
+2024-06-27,Maharashtra,Oil,Ransomware,18,6,2024
+2024-06-28,Maharashtra,Oil,Malware,12,6,2024
+2024-06-29,Tamil Nadu,Finance,Malware,93,6,2024
+2024-06-30,Uttar Pradesh,Finance,Ransomware,7,6,2024
+2024-07-01,Gujarat,Finance,Data Breach,6,7,2024
+2024-07-02,Gujarat,Finance,Data Breach,62,7,2024
+2024-07-03,Maharashtra,Health,Phishing,76,7,2024
+2024-07-04,Maharashtra,Aerospace,Malware,39,7,2024
+2024-07-05,Tamil Nadu,Aerospace,Phishing,84,7,2024
+2024-07-06,Tamil Nadu,Aerospace,Ransomware,41,7,2024
+2024-07-07,Tamil Nadu,Aerospace,Malware,75,7,2024
+2024-07-08,Uttar Pradesh,Electricity,Data Breach,76,7,2024
+2024-07-09,Maharashtra,Electricity,Data Breach,22,7,2024
+2024-07-10,Uttar Pradesh,Aerospace,DDoS,43,7,2024
+2024-07-11,Gujarat,Finance,Malware,25,7,2024
+2024-07-12,Uttar Pradesh,Oil,Ransomware,69,7,2024
+2024-07-13,Maharashtra,Electricity,Data Breach,73,7,2024
+2024-07-14,West Bengal,Aerospace,DDoS,15,7,2024
+2024-07-15,Tamil Nadu,Aerospace,Data Breach,31,7,2024
+2024-07-16,Uttar Pradesh,Health,Ransomware,80,7,2024
+2024-07-17,Maharashtra,Electricity,Data Breach,68,7,2024
+2024-07-18,Maharashtra,Finance,Ransomware,22,7,2024
+2024-07-19,Tamil Nadu,Aerospace,Ransomware,67,7,2024
+2024-07-20,West Bengal,Electricity,Data Breach,53,7,2024
+2024-07-21,Tamil Nadu,Finance,Data Breach,94,7,2024
+2024-07-22,Tamil Nadu,Health,Data Breach,34,7,2024
+2024-07-23,Maharashtra,Finance,Malware,43,7,2024
+2024-07-24,West Bengal,Aerospace,DDoS,58,7,2024
+2024-07-25,Gujarat,Aerospace,Phishing,17,7,2024
+2024-07-26,West Bengal,Finance,DDoS,41,7,2024
+2024-07-27,Uttar Pradesh,Aerospace,Data Breach,8,7,2024
+2024-07-28,West Bengal,Finance,Ransomware,67,7,2024
+2024-07-29,Gujarat,Oil,DDoS,81,7,2024
+2024-07-30,Maharashtra,Aerospace,Data Breach,10,7,2024
+2024-07-31,Tamil Nadu,Finance,DDoS,65,7,2024
+2024-08-01,Gujarat,Health,Data Breach,94,8,2024
+2024-08-02,Uttar Pradesh,Finance,Data Breach,80,8,2024
+2024-08-03,Gujarat,Electricity,Data Breach,19,8,2024
+2024-08-04,West Bengal,Oil,Data Breach,11,8,2024
+2024-08-05,West Bengal,Aerospace,Data Breach,68,8,2024
+2024-08-06,West Bengal,Oil,Ransomware,73,8,2024
+2024-08-07,Gujarat,Oil,Ransomware,94,8,2024
+2024-08-08,Gujarat,Health,Malware,44,8,2024
+2024-08-09,Uttar Pradesh,Electricity,DDoS,69,8,2024
+2024-08-10,Gujarat,Finance,DDoS,65,8,2024
+2024-08-11,West Bengal,Aerospace,Data Breach,55,8,2024
+2024-08-12,Uttar Pradesh,Health,Data Breach,80,8,2024
+2024-08-13,West Bengal,Oil,Malware,55,8,2024
+2024-08-14,West Bengal,Oil,Data Breach,66,8,2024
+2024-08-15,Uttar Pradesh,Aerospace,DDoS,81,8,2024
+2024-08-16,Gujarat,Oil,Malware,77,8,2024
+2024-08-17,Maharashtra,Health,Data Breach,7,8,2024
+2024-08-18,West Bengal,Oil,DDoS,4,8,2024
+2024-08-19,Uttar Pradesh,Aerospace,Data Breach,68,8,2024
+2024-08-20,Maharashtra,Electricity,Malware,62,8,2024
+2024-08-21,Maharashtra,Oil,Data Breach,88,8,2024
+2024-08-22,West Bengal,Health,Malware,93,8,2024
+2024-08-23,Gujarat,Aerospace,Data Breach,38,8,2024
+2024-08-24,Uttar Pradesh,Electricity,Ransomware,60,8,2024
+2024-08-25,West Bengal,Finance,Ransomware,63,8,2024
+2024-08-26,West Bengal,Aerospace,Phishing,11,8,2024
+2024-08-27,Uttar Pradesh,Finance,Ransomware,35,8,2024
+2024-08-28,Uttar Pradesh,Finance,Data Breach,81,8,2024
+2024-08-29,Tamil Nadu,Health,Data Breach,5,8,2024
+2024-08-30,Tamil Nadu,Finance,Phishing,26,8,2024
+2024-08-31,Tamil Nadu,Oil,DDoS,38,8,2024
+2024-09-01,Gujarat,Finance,DDoS,78,9,2024
+2024-09-02,Gujarat,Aerospace,Data Breach,81,9,2024
+2024-09-03,Gujarat,Aerospace,Ransomware,20,9,2024
+2024-09-04,Maharashtra,Oil,Malware,46,9,2024
+2024-09-05,West Bengal,Electricity,Malware,66,9,2024
+2024-09-06,West Bengal,Finance,Malware,84,9,2024
+2024-09-07,Uttar Pradesh,Oil,Phishing,29,9,2024
+2024-09-08,Gujarat,Oil,Phishing,37,9,2024
+2024-09-09,West Bengal,Oil,Ransomware,26,9,2024
+2024-09-10,West Bengal,Electricity,Phishing,86,9,2024
+2024-09-11,Tamil Nadu,Finance,Ransomware,71,9,2024
+2024-09-12,Gujarat,Aerospace,Phishing,74,9,2024
+2024-09-13,Gujarat,Oil,Ransomware,22,9,2024
+2024-09-14,West Bengal,Electricity,Ransomware,29,9,2024
+2024-09-15,Tamil Nadu,Aerospace,Ransomware,90,9,2024
+2024-09-16,Tamil Nadu,Oil,Malware,74,9,2024
+2024-09-17,Maharashtra,Oil,DDoS,97,9,2024
+2024-09-18,Gujarat,Oil,DDoS,12,9,2024
+2024-09-19,Uttar Pradesh,Finance,DDoS,63,9,2024
+2024-09-20,West Bengal,Health,DDoS,7,9,2024
+2024-09-21,Uttar Pradesh,Health,Ransomware,87,9,2024
+2024-09-22,West Bengal,Aerospace,DDoS,7,9,2024
+2024-09-23,Gujarat,Health,Phishing,23,9,2024
+2024-09-24,Uttar Pradesh,Health,DDoS,81,9,2024
+2024-09-25,Tamil Nadu,Aerospace,Ransomware,84,9,2024
+2024-09-26,Gujarat,Finance,Ransomware,15,9,2024
+2024-09-27,Tamil Nadu,Oil,DDoS,40,9,2024
+2024-09-28,Tamil Nadu,Aerospace,DDoS,78,9,2024
+2024-09-29,Uttar Pradesh,Finance,Malware,61,9,2024
+2024-09-30,Tamil Nadu,Health,Phishing,42,9,2024
+2024-10-01,Tamil Nadu,Oil,DDoS,41,10,2024
+2024-10-02,Gujarat,Finance,Data Breach,44,10,2024
+2024-10-03,Uttar Pradesh,Oil,Ransomware,49,10,2024
+2024-10-04,Tamil Nadu,Aerospace,Ransomware,55,10,2024
+2024-10-05,Uttar Pradesh,Aerospace,Ransomware,92,10,2024
+2024-10-06,West Bengal,Electricity,Phishing,24,10,2024
+2024-10-07,Gujarat,Health,Data Breach,42,10,2024
+2024-10-08,Gujarat,Electricity,DDoS,77,10,2024
+2024-10-09,Maharashtra,Finance,Phishing,47,10,2024
+2024-10-10,Maharashtra,Aerospace,Ransomware,96,10,2024
+2024-10-11,Tamil Nadu,Oil,Phishing,80,10,2024
+2024-10-12,West Bengal,Oil,Ransomware,69,10,2024
+2024-10-13,West Bengal,Aerospace,Malware,54,10,2024
+2024-10-14,West Bengal,Health,Data Breach,94,10,2024
+2024-10-15,Tamil Nadu,Oil,Phishing,73,10,2024
+2024-10-16,Tamil Nadu,Health,DDoS,48,10,2024
+2024-10-17,Tamil Nadu,Electricity,Ransomware,44,10,2024
+2024-10-18,Gujarat,Oil,Phishing,88,10,2024
+2024-10-19,Maharashtra,Electricity,Phishing,33,10,2024
+2024-10-20,Tamil Nadu,Aerospace,Data Breach,8,10,2024
+2024-10-21,Gujarat,Oil,DDoS,51,10,2024
+2024-10-22,Uttar Pradesh,Health,DDoS,43,10,2024
+2024-10-23,Maharashtra,Electricity,Phishing,17,10,2024
+2024-10-24,West Bengal,Health,Phishing,97,10,2024
+2024-10-25,Uttar Pradesh,Electricity,Data Breach,77,10,2024
+2024-10-26,Gujarat,Aerospace,Phishing,31,10,2024
+2024-10-27,West Bengal,Aerospace,Malware,34,10,2024
+2024-10-28,Maharashtra,Aerospace,Data Breach,9,10,2024
+2024-10-29,Maharashtra,Electricity,DDoS,11,10,2024
+2024-10-30,West Bengal,Oil,Ransomware,40,10,2024
+2024-10-31,Uttar Pradesh,Health,Data Breach,93,10,2024
+2024-11-01,Maharashtra,Finance,Data Breach,18,11,2024
+2024-11-02,West Bengal,Finance,DDoS,65,11,2024
+2024-11-03,Gujarat,Electricity,Ransomware,83,11,2024
+2024-11-04,Gujarat,Electricity,Malware,52,11,2024
+2024-11-05,Gujarat,Electricity,Malware,57,11,2024
+2024-11-06,Uttar Pradesh,Finance,Ransomware,24,11,2024
+2024-11-07,West Bengal,Aerospace,Phishing,34,11,2024
+2024-11-08,Uttar Pradesh,Health,Data Breach,84,11,2024
+2024-11-09,West Bengal,Oil,DDoS,29,11,2024
+2024-11-10,Gujarat,Health,Data Breach,13,11,2024
+2024-11-11,Maharashtra,Finance,Ransomware,35,11,2024
+2024-11-12,Gujarat,Health,Malware,13,11,2024
+2024-11-13,Uttar Pradesh,Electricity,Malware,59,11,2024
+2024-11-14,Maharashtra,Oil,Data Breach,44,11,2024
+2024-11-15,West Bengal,Health,Data Breach,67,11,2024
+2024-11-16,Gujarat,Finance,DDoS,94,11,2024
+2024-11-17,Tamil Nadu,Aerospace,DDoS,78,11,2024
+2024-11-18,Tamil Nadu,Aerospace,Data Breach,44,11,2024
+2024-11-19,West Bengal,Aerospace,Data Breach,82,11,2024
+2024-11-20,Gujarat,Electricity,DDoS,39,11,2024
+2024-11-21,Tamil Nadu,Oil,Phishing,23,11,2024
+2024-11-22,Uttar Pradesh,Aerospace,DDoS,91,11,2024
+2024-11-23,West Bengal,Oil,Phishing,66,11,2024
+2024-11-24,West Bengal,Oil,Data Breach,11,11,2024
+2024-11-25,West Bengal,Finance,Phishing,18,11,2024
+2024-11-26,West Bengal,Electricity,Malware,74,11,2024
+2024-11-27,Tamil Nadu,Aerospace,Malware,30,11,2024
+2024-11-28,Gujarat,Aerospace,Malware,70,11,2024
+2024-11-29,Maharashtra,Health,DDoS,54,11,2024
+2024-11-30,Maharashtra,Electricity,Malware,52,11,2024
+2024-12-01,Uttar Pradesh,Electricity,Phishing,83,12,2024
+2024-12-02,Gujarat,Aerospace,Malware,45,12,2024
+2024-12-03,Gujarat,Oil,DDoS,5,12,2024
+2024-12-04,Maharashtra,Electricity,DDoS,23,12,2024
+2024-12-05,Gujarat,Finance,Ransomware,59,12,2024
+2024-12-06,Uttar Pradesh,Finance,Malware,90,12,2024
+2024-12-07,Uttar Pradesh,Aerospace,Malware,82,12,2024
+2024-12-08,West Bengal,Electricity,Malware,21,12,2024
+2024-12-09,West Bengal,Finance,Data Breach,60,12,2024
+2024-12-10,Gujarat,Health,Malware,46,12,2024
+2024-12-11,Tamil Nadu,Electricity,Malware,31,12,2024
+2024-12-12,Tamil Nadu,Oil,DDoS,22,12,2024
+2024-12-13,Gujarat,Health,DDoS,39,12,2024
+2024-12-14,Gujarat,Electricity,Phishing,16,12,2024
+2024-12-15,Tamil Nadu,Health,DDoS,82,12,2024
+2024-12-16,West Bengal,Health,DDoS,40,12,2024
+2024-12-17,Gujarat,Aerospace,Malware,53,12,2024
+2024-12-18,Gujarat,Oil,Malware,88,12,2024
+2024-12-19,Uttar Pradesh,Finance,DDoS,5,12,2024
+2024-12-20,Gujarat,Health,Malware,47,12,2024
+2024-12-21,West Bengal,Electricity,DDoS,91,12,2024
+2024-12-22,Tamil Nadu,Health,DDoS,94,12,2024
+2024-12-23,Tamil Nadu,Oil,DDoS,66,12,2024
+2024-12-24,Maharashtra,Finance,Malware,91,12,2024
+2024-12-25,Uttar Pradesh,Electricity,Ransomware,29,12,2024
+2024-12-26,Gujarat,Finance,DDoS,10,12,2024
+2024-12-27,Tamil Nadu,Aerospace,Malware,9,12,2024
+2024-12-28,Gujarat,Aerospace,DDoS,2,12,2024
+2024-12-29,West Bengal,Oil,Data Breach,54,12,2024
+2024-12-30,West Bengal,Electricity,Data Breach,23,12,2024
+2024-12-31,Tamil Nadu,Electricity,Ransomware,88,12,2024
+2025-01-01,Uttar Pradesh,Oil,Data Breach,45,1,2025
+2025-01-02,Tamil Nadu,Aerospace,DDoS,55,1,2025
+2025-01-03,Tamil Nadu,Finance,Data Breach,80,1,2025
+2025-01-04,Maharashtra,Electricity,Phishing,61,1,2025
+2025-01-05,Gujarat,Health,Data Breach,68,1,2025
+2025-01-06,Gujarat,Electricity,Data Breach,87,1,2025
+2025-01-07,Tamil Nadu,Oil,Data Breach,48,1,2025
+2025-01-08,West Bengal,Health,Malware,61,1,2025
+2025-01-09,West Bengal,Aerospace,Data Breach,34,1,2025
+2025-01-10,Gujarat,Electricity,Ransomware,44,1,2025
+2025-01-11,Uttar Pradesh,Oil,Malware,62,1,2025
+2025-01-12,West Bengal,Health,Phishing,15,1,2025
+2025-01-13,West Bengal,Finance,Data Breach,94,1,2025
+2025-01-14,Tamil Nadu,Oil,Malware,94,1,2025
+2025-01-15,West Bengal,Health,Ransomware,70,1,2025
+2025-01-16,Gujarat,Aerospace,Ransomware,30,1,2025
+2025-01-17,Uttar Pradesh,Health,Phishing,16,1,2025
+2025-01-18,Maharashtra,Aerospace,Data Breach,98,1,2025
+2025-01-19,West Bengal,Finance,Data Breach,67,1,2025
+2025-01-20,Uttar Pradesh,Health,Malware,58,1,2025
+2025-01-21,Gujarat,Aerospace,Ransomware,38,1,2025
+2025-01-22,West Bengal,Finance,Malware,47,1,2025
+2025-01-23,Gujarat,Electricity,Malware,19,1,2025
+2025-01-24,Tamil Nadu,Finance,Ransomware,74,1,2025
+2025-01-25,Tamil Nadu,Electricity,Malware,29,1,2025
+2025-01-26,Uttar Pradesh,Oil,Malware,83,1,2025
+2025-01-27,West Bengal,Oil,Malware,49,1,2025
+2025-01-28,Gujarat,Health,DDoS,49,1,2025
+2025-01-29,Gujarat,Oil,Phishing,70,1,2025
+2025-01-30,Maharashtra,Electricity,Phishing,62,1,2025
+2025-01-31,Gujarat,Finance,Malware,77,1,2025
+2025-02-01,Gujarat,Health,Data Breach,11,2,2025
+2025-02-02,Maharashtra,Oil,Ransomware,30,2,2025
+2025-02-03,Gujarat,Oil,Malware,32,2,2025
+2025-02-04,Gujarat,Health,Malware,75,2,2025
+2025-02-05,West Bengal,Health,Malware,74,2,2025
+2025-02-06,Tamil Nadu,Electricity,Ransomware,99,2,2025
+2025-02-07,Gujarat,Aerospace,DDoS,70,2,2025
+2025-02-08,West Bengal,Health,Phishing,1,2,2025
+2025-02-09,Maharashtra,Electricity,Phishing,55,2,2025
+2025-02-10,Tamil Nadu,Health,Malware,79,2,2025
+2025-02-11,West Bengal,Oil,Ransomware,4,2,2025
+2025-02-12,Uttar Pradesh,Electricity,Phishing,30,2,2025
+2025-02-13,Gujarat,Health,Ransomware,13,2,2025
+2025-02-14,Tamil Nadu,Electricity,Malware,17,2,2025
+2025-02-15,Maharashtra,Aerospace,Phishing,54,2,2025
+2025-02-16,Maharashtra,Health,Ransomware,92,2,2025
+2025-02-17,Maharashtra,Aerospace,Data Breach,12,2,2025
+2025-02-18,West Bengal,Health,Phishing,59,2,2025
+2025-02-19,West Bengal,Health,DDoS,39,2,2025
+2025-02-20,Uttar Pradesh,Aerospace,Ransomware,66,2,2025
+2025-02-21,Maharashtra,Finance,Phishing,43,2,2025
+2025-02-22,Tamil Nadu,Electricity,Phishing,93,2,2025
+2025-02-23,Uttar Pradesh,Finance,Malware,13,2,2025
+2025-02-24,West Bengal,Health,DDoS,77,2,2025
+2025-02-25,West Bengal,Oil,Phishing,55,2,2025
+2025-02-26,West Bengal,Health,Malware,43,2,2025
+2025-02-27,Uttar Pradesh,Electricity,Malware,32,2,2025
+2025-02-28,Tamil Nadu,Oil,Data Breach,5,2,2025
+2025-03-01,Maharashtra,Electricity,DDoS,9,3,2025
+2025-03-02,Maharashtra,Electricity,Data Breach,87,3,2025
+2025-03-03,Tamil Nadu,Health,DDoS,90,3,2025
+2025-03-04,Maharashtra,Health,DDoS,65,3,2025
+2025-03-05,Maharashtra,Finance,Data Breach,22,3,2025
+2025-03-06,Uttar Pradesh,Health,Malware,2,3,2025
+2025-03-07,Maharashtra,Oil,Malware,3,3,2025
+2025-03-08,Uttar Pradesh,Electricity,DDoS,47,3,2025
+2025-03-09,Maharashtra,Oil,Data Breach,79,3,2025
+2025-03-10,Uttar Pradesh,Health,Phishing,73,3,2025
+2025-03-11,West Bengal,Oil,DDoS,78,3,2025
+2025-03-12,West Bengal,Electricity,Phishing,20,3,2025
+2025-03-13,Uttar Pradesh,Aerospace,Data Breach,6,3,2025
+2025-03-14,Tamil Nadu,Oil,DDoS,28,3,2025
+2025-03-15,West Bengal,Aerospace,Phishing,29,3,2025
+2025-03-16,Maharashtra,Aerospace,Ransomware,46,3,2025
+2025-03-17,Tamil Nadu,Finance,Malware,46,3,2025
+2025-03-18,Gujarat,Oil,Data Breach,92,3,2025
+2025-03-19,West Bengal,Electricity,DDoS,19,3,2025
+2025-03-20,Maharashtra,Health,Malware,77,3,2025
+2025-03-21,Gujarat,Health,Malware,85,3,2025
+2025-03-22,West Bengal,Oil,Phishing,6,3,2025
+2025-03-23,Gujarat,Finance,Phishing,87,3,2025
+2025-03-24,Tamil Nadu,Finance,Ransomware,61,3,2025
+2025-03-25,Gujarat,Health,Data Breach,51,3,2025
+2025-03-26,West Bengal,Oil,Malware,93,3,2025
+2025-03-27,Maharashtra,Finance,DDoS,54,3,2025
+2025-03-28,Gujarat,Oil,DDoS,62,3,2025
+2025-03-29,Tamil Nadu,Oil,Malware,22,3,2025
+2025-03-30,Maharashtra,Electricity,Data Breach,18,3,2025
+2025-03-31,Uttar Pradesh,Health,Data Breach,65,3,2025
+2025-04-01,Tamil Nadu,Aerospace,Data Breach,6,4,2025
+2025-04-02,Maharashtra,Finance,Phishing,13,4,2025
+2025-04-03,Gujarat,Aerospace,Malware,17,4,2025
+2025-04-04,Gujarat,Oil,Phishing,74,4,2025
+2025-04-05,Uttar Pradesh,Oil,Phishing,38,4,2025
+2025-04-06,Uttar Pradesh,Electricity,Phishing,57,4,2025
+2025-04-07,Gujarat,Oil,Data Breach,3,4,2025
+2025-04-08,Tamil Nadu,Oil,Malware,4,4,2025
+2025-04-09,West Bengal,Health,Ransomware,3,4,2025
+2025-04-10,Uttar Pradesh,Health,DDoS,95,4,2025
+2025-04-11,Tamil Nadu,Aerospace,Malware,49,4,2025
+2025-04-12,Gujarat,Finance,Data Breach,18,4,2025
+2025-04-13,West Bengal,Electricity,Ransomware,65,4,2025
+2025-04-14,Uttar Pradesh,Finance,Ransomware,12,4,2025
+2025-04-15,Tamil Nadu,Oil,Phishing,28,4,2025
+2025-04-16,West Bengal,Electricity,Malware,87,4,2025
+2025-04-17,Tamil Nadu,Oil,DDoS,2,4,2025
+2025-04-18,Maharashtra,Electricity,DDoS,99,4,2025
+2025-04-19,Maharashtra,Finance,Ransomware,80,4,2025
+2025-04-20,Uttar Pradesh,Oil,DDoS,32,4,2025
+2025-04-21,Uttar Pradesh,Finance,Phishing,85,4,2025
+2025-04-22,Uttar Pradesh,Finance,Ransomware,48,4,2025
+2025-04-23,West Bengal,Electricity,Data Breach,27,4,2025
+2025-04-24,Uttar Pradesh,Oil,DDoS,62,4,2025
+2025-04-25,Gujarat,Oil,DDoS,33,4,2025
+2025-04-26,Maharashtra,Aerospace,Malware,3,4,2025
+2025-04-27,Maharashtra,Oil,Phishing,26,4,2025
+2025-04-28,Maharashtra,Finance,Ransomware,46,4,2025
+2025-04-29,Maharashtra,Aerospace,DDoS,8,4,2025
+2025-04-30,Tamil Nadu,Electricity,Malware,37,4,2025
+2025-05-01,Gujarat,Electricity,Ransomware,85,5,2025
+2025-05-02,Uttar Pradesh,Finance,Ransomware,90,5,2025
+2025-05-03,Uttar Pradesh,Health,DDoS,88,5,2025
+2025-05-04,West Bengal,Oil,Phishing,49,5,2025
+2025-05-05,Gujarat,Oil,DDoS,26,5,2025
+2025-05-06,Maharashtra,Oil,Phishing,47,5,2025
+2025-05-07,West Bengal,Electricity,Malware,71,5,2025
+2025-05-08,Gujarat,Aerospace,DDoS,14,5,2025
+2025-05-09,Gujarat,Health,Data Breach,38,5,2025
+2025-05-10,Gujarat,Aerospace,DDoS,98,5,2025
+2025-05-11,West Bengal,Aerospace,DDoS,12,5,2025
+2025-05-12,Gujarat,Oil,DDoS,62,5,2025
+2025-05-13,West Bengal,Oil,Phishing,50,5,2025
+2025-05-14,Gujarat,Electricity,DDoS,10,5,2025
+2025-05-15,Maharashtra,Aerospace,Data Breach,4,5,2025
+2025-05-16,Maharashtra,Electricity,Malware,60,5,2025
+2025-05-17,Tamil Nadu,Finance,Ransomware,84,5,2025
+2025-05-18,Uttar Pradesh,Electricity,Malware,8,5,2025
+2025-05-19,Gujarat,Electricity,Phishing,3,5,2025
+2025-05-20,Tamil Nadu,Aerospace,Data Breach,58,5,2025
+2025-05-21,Maharashtra,Oil,Ransomware,19,5,2025
+2025-05-22,Gujarat,Finance,Ransomware,20,5,2025
+2025-05-23,Uttar Pradesh,Aerospace,Data Breach,58,5,2025
+2025-05-24,Maharashtra,Electricity,DDoS,31,5,2025
+2025-05-25,West Bengal,Oil,DDoS,67,5,2025
+2025-05-26,Maharashtra,Finance,Phishing,62,5,2025
+2025-05-27,West Bengal,Aerospace,Malware,12,5,2025
+2025-05-28,Gujarat,Electricity,DDoS,68,5,2025
+2025-05-29,Uttar Pradesh,Aerospace,Phishing,30,5,2025
+2025-05-30,Tamil Nadu,Aerospace,Malware,52,5,2025
+2025-05-31,Gujarat,Oil,Data Breach,46,5,2025
+2025-06-01,Uttar Pradesh,Oil,Malware,34,6,2025
+2025-06-02,Tamil Nadu,Oil,Phishing,78,6,2025
+2025-06-03,Maharashtra,Finance,Data Breach,11,6,2025
+2025-06-04,Uttar Pradesh,Finance,Ransomware,88,6,2025
+2025-06-05,Uttar Pradesh,Finance,Data Breach,4,6,2025
+2025-06-06,Tamil Nadu,Health,Phishing,23,6,2025
+2025-06-07,Gujarat,Oil,DDoS,49,6,2025
+2025-06-08,Gujarat,Aerospace,Ransomware,70,6,2025
+2025-06-09,Uttar Pradesh,Health,Phishing,48,6,2025
+2025-06-10,Uttar Pradesh,Electricity,Ransomware,60,6,2025
+2025-06-11,Maharashtra,Electricity,Phishing,98,6,2025
+2025-06-12,Uttar Pradesh,Finance,DDoS,17,6,2025
+2025-06-13,Gujarat,Aerospace,Data Breach,96,6,2025
+2025-06-14,Gujarat,Electricity,Malware,57,6,2025
+2025-06-15,Gujarat,Oil,Phishing,15,6,2025
+2025-06-16,Uttar Pradesh,Electricity,Ransomware,60,6,2025
+2025-06-17,Gujarat,Electricity,Ransomware,3,6,2025
+2025-06-18,Gujarat,Oil,Malware,46,6,2025
+2025-06-19,Uttar Pradesh,Health,DDoS,74,6,2025
+2025-06-20,Gujarat,Electricity,Phishing,89,6,2025
+2025-06-21,Gujarat,Finance,Ransomware,69,6,2025
+2025-06-22,Tamil Nadu,Oil,Data Breach,58,6,2025
+2025-06-23,Gujarat,Electricity,Data Breach,96,6,2025
+2025-06-24,Gujarat,Aerospace,DDoS,11,6,2025
+2025-06-25,Tamil Nadu,Health,Data Breach,40,6,2025
+2025-06-26,Maharashtra,Oil,Malware,74,6,2025
+2025-06-27,Uttar Pradesh,Oil,DDoS,91,6,2025
+2025-06-28,Tamil Nadu,Oil,DDoS,10,6,2025
+2025-06-29,Maharashtra,Finance,Ransomware,3,6,2025
+2025-06-30,West Bengal,Health,DDoS,54,6,2025
+2025-07-01,West Bengal,Finance,DDoS,47,7,2025
+2025-07-02,Gujarat,Health,Ransomware,19,7,2025
+2025-07-03,West Bengal,Health,DDoS,44,7,2025
+2025-07-04,Gujarat,Finance,Data Breach,80,7,2025
+2025-07-05,West Bengal,Oil,DDoS,91,7,2025
+2025-07-06,Tamil Nadu,Aerospace,Phishing,52,7,2025
+2025-07-07,Maharashtra,Health,Malware,20,7,2025
+2025-07-08,Maharashtra,Aerospace,DDoS,40,7,2025
+2025-07-09,West Bengal,Health,Phishing,53,7,2025
+2025-07-10,Gujarat,Aerospace,DDoS,77,7,2025
+2025-07-11,Tamil Nadu,Health,Ransomware,66,7,2025
+2025-07-12,Gujarat,Aerospace,DDoS,20,7,2025
+2025-07-13,Maharashtra,Electricity,Phishing,95,7,2025
+2025-07-14,West Bengal,Aerospace,Ransomware,6,7,2025
+2025-07-15,West Bengal,Electricity,Data Breach,29,7,2025
+2025-07-16,Uttar Pradesh,Electricity,DDoS,6,7,2025
+2025-07-17,Maharashtra,Aerospace,DDoS,84,7,2025
+2025-07-18,Tamil Nadu,Aerospace,DDoS,63,7,2025
+2025-07-19,West Bengal,Health,Ransomware,60,7,2025
+2025-07-20,West Bengal,Health,Malware,5,7,2025
+2025-07-21,Gujarat,Health,Malware,47,7,2025
+2025-07-22,Gujarat,Aerospace,Malware,3,7,2025
+2025-07-23,Tamil Nadu,Health,Malware,10,7,2025
+2025-07-24,West Bengal,Aerospace,DDoS,35,7,2025
+2025-07-25,West Bengal,Electricity,Phishing,9,7,2025
+2025-07-26,Maharashtra,Health,Data Breach,81,7,2025
+2025-07-27,Maharashtra,Oil,Phishing,39,7,2025
+2025-07-28,Uttar Pradesh,Aerospace,Ransomware,23,7,2025
+2025-07-29,Gujarat,Health,Phishing,56,7,2025
+2025-07-30,West Bengal,Oil,Ransomware,33,7,2025
+2025-07-31,Tamil Nadu,Aerospace,Ransomware,74,7,2025
+2025-08-01,Gujarat,Electricity,DDoS,41,8,2025
+2025-08-02,Tamil Nadu,Finance,Data Breach,3,8,2025
+2025-08-03,Maharashtra,Aerospace,Malware,50,8,2025
+2025-08-04,Gujarat,Finance,Phishing,68,8,2025
+2025-08-05,Gujarat,Oil,Ransomware,18,8,2025
+2025-08-06,Maharashtra,Oil,Ransomware,93,8,2025
+2025-08-07,Tamil Nadu,Finance,Data Breach,86,8,2025
+2025-08-08,Uttar Pradesh,Aerospace,DDoS,97,8,2025
+2025-08-09,Maharashtra,Aerospace,DDoS,18,8,2025
+2025-08-10,Tamil Nadu,Aerospace,DDoS,84,8,2025
+2025-08-11,Gujarat,Electricity,DDoS,71,8,2025
+2025-08-12,Maharashtra,Oil,Phishing,12,8,2025
+2025-08-13,West Bengal,Oil,Malware,67,8,2025
+2025-08-14,West Bengal,Electricity,Malware,62,8,2025
+2025-08-15,Maharashtra,Aerospace,Ransomware,12,8,2025
+2025-08-16,Uttar Pradesh,Aerospace,Data Breach,17,8,2025
+2025-08-17,Maharashtra,Finance,DDoS,62,8,2025
+2025-08-18,Uttar Pradesh,Health,Phishing,77,8,2025
+2025-08-19,Tamil Nadu,Oil,Ransomware,59,8,2025
+2025-08-20,Tamil Nadu,Health,Phishing,97,8,2025
+2025-08-21,Maharashtra,Oil,Ransomware,6,8,2025
+2025-08-22,Maharashtra,Oil,Malware,87,8,2025
+2025-08-23,Maharashtra,Health,Phishing,61,8,2025
+2025-08-24,Tamil Nadu,Finance,Ransomware,60,8,2025
+2025-08-25,Gujarat,Oil,DDoS,2,8,2025
+2025-08-26,Gujarat,Finance,DDoS,83,8,2025
+2025-08-27,Tamil Nadu,Health,Data Breach,81,8,2025
+2025-08-28,West Bengal,Aerospace,DDoS,37,8,2025
+2025-08-29,Uttar Pradesh,Finance,Ransomware,17,8,2025
+2025-08-30,West Bengal,Health,Data Breach,16,8,2025
+2025-08-31,Maharashtra,Finance,Data Breach,41,8,2025
+2025-09-01,Maharashtra,Aerospace,Phishing,99,9,2025
+2025-09-02,West Bengal,Oil,Ransomware,79,9,2025
+2025-09-03,Uttar Pradesh,Electricity,Data Breach,94,9,2025
+2025-09-04,Uttar Pradesh,Oil,Ransomware,97,9,2025
+2025-09-05,Maharashtra,Finance,Ransomware,48,9,2025
+2025-09-06,Uttar Pradesh,Oil,Phishing,57,9,2025
+2025-09-07,Gujarat,Health,Malware,83,9,2025
+2025-09-08,Tamil Nadu,Aerospace,DDoS,55,9,2025
+2025-09-09,West Bengal,Electricity,DDoS,85,9,2025
+2025-09-10,Tamil Nadu,Electricity,Ransomware,25,9,2025
+2025-09-11,West Bengal,Aerospace,Data Breach,82,9,2025
+2025-09-12,Uttar Pradesh,Aerospace,DDoS,67,9,2025
+2025-09-13,Maharashtra,Aerospace,Malware,45,9,2025
+2025-09-14,Maharashtra,Oil,Ransomware,79,9,2025
+2025-09-15,Maharashtra,Finance,Phishing,53,9,2025
+2025-09-16,Maharashtra,Oil,Malware,18,9,2025
+2025-09-17,Gujarat,Health,Ransomware,56,9,2025
+2025-09-18,Maharashtra,Health,Malware,26,9,2025
+2025-09-19,Tamil Nadu,Oil,Ransomware,79,9,2025
+2025-09-20,Maharashtra,Finance,Data Breach,81,9,2025
+2025-09-21,Tamil Nadu,Oil,Data Breach,55,9,2025
+2025-09-22,Maharashtra,Aerospace,Data Breach,35,9,2025
+2025-09-23,West Bengal,Finance,DDoS,26,9,2025
+2025-09-24,Maharashtra,Health,Phishing,94,9,2025
+2025-09-25,Uttar Pradesh,Oil,Phishing,49,9,2025
+2025-09-26,West Bengal,Finance,DDoS,23,9,2025

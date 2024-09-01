@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 210px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            flex-grow: 1;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 250px;
+            width: calc(100% - 250px);
+            z-index: 1000;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .navbar a:hover {
+            background-color: #555;
+        }
+        .tab-content {
+            padding-top: 50px; /* Adjust for the navbar height */
+        }
+        .checkbox-group-container {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .checkbox-group label {
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        img {
+            border: 1px solid #000;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            background-color: #000000;
+            display: block;
+            margin: 20px auto;
+            max-width: 100%; /* Ensure image does not exceed container width */
+        }
+        .button-group {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Sidebar Content</h2>
+        <p>Static text goes here.</p>
+    </div>
+    <div class="content">
+        <div class="navbar">
+            {% for tab in tabs %}
+                <a href="#" data-tab="{{ tab }}">{{ tab.replace('_', ' ') }}</a>
+            {% endfor %}
+        </div>
+        <div id="tab-content" class="tab-content">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Event listener for tab clicks
+            document.querySelectorAll('.navbar a').forEach(tab => {
+                tab.addEventListener('click', async event => {
+                    event.preventDefault();
+                    const tabName = event.target.getAttribute('data-tab');
+                    await loadTabContent(tabName);
+                });
+            });
+
+            // Load the default tab
+            const defaultTab = document.querySelector('.navbar a');
+            if (defaultTab) {
+                defaultTab.click();
+            }
+        });
+
+        async function loadTabContent(tabName) {
+            const tabContentDiv = document.getElementById('tab-content');
+            tabContentDiv.innerHTML = '<p>Loading...</p>'; // Show loading message
+
+            try {
+                const response = await fetch('{{ url_for("get_options") }}?tab=' + tabName);
+                const data = await response.json();
+                let content = '';
+                content = `
+                        <h1>${tabName.replace('_', ' ')}</h1>
+                        <div class="container">
+                            <div class="checkbox-group-container">
+                                <div class="checkbox-group" id="options-${tabName}"></div>
+                                <div class="button-group">
+                                    <button id="select-all-${tabName}">Select All</button>
+                                    <button id="clear-all-${tabName}">Clear All</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container map-container">
+                            <img id="map-${tabName}" src="" alt="Map">
+                        </div>
+                    `;
+                    tabContentDiv.innerHTML = content;
+
+                    const options = data.options;
+                    const checkboxGroup = document.getElementById(`options-${tabName}`);
+                    options.forEach(option => {
+                        const label = document.createElement('label');
+                        const checkbox = document.createElement('input');
+                        checkbox.type = 'checkbox';
+                        checkbox.value = option;
+                        label.appendChild(checkbox);
+                        label.appendChild(document.createTextNode(option));
+                        checkboxGroup.appendChild(label);
+                        checkbox.checked = true;
+                    });
+
+                    const checkboxes = document.querySelectorAll(`#options-${tabName} input[type="checkbox"]`);
+                    const selectedOptions = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value);
+                    const map_response = await fetch('{{ url_for("map") }}?tab=' + tabName + '&options=' + selectedOptions.join(','));
+                    const map_data = await map_response.json();
+                    const mapElement = document.getElementById(`map-${tabName}`);
+                    mapElement.src = map_data.plot_url;
+                    attachCheckboxListeners(tabName);
+            } catch (error) {}
+        }
+
+        function attachCheckboxListeners(tabName) {
+            const checkboxes = document.querySelectorAll(`#options-${tabName} input[type="checkbox"]`);
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', async () => {
+                    const selectedOptions = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value);
+                    const url = '{{ url_for("map") }}?tab=' + tabName + '&options=' + selectedOptions.join(',');
+                    try {
+                        const response = await fetch(url);
+                        const map_data = await response.json();
+                        const mapElement = document.getElementById(`map-${tabName}`);
+                        mapElement.src = map_data.plot_url;
+                    } catch (error) {
+                        console.error('Error fetching map data:', error);
+                    }
+                });
+            });
+
+            document.getElementById(`select-all-${tabName}`).addEventListener('click', () => {
+                checkboxes.forEach(checkbox => {
+                    checkbox.checked = true;
+                });
+                const selectedOptions = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value);
+                const url = '{{ url_for("map") }}?tab=' + tabName + '&options=' + selectedOptions.join(',');
+
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        const mapElement = document.getElementById(`map-${tabName}`);
+                        mapElement.src = data.plot_url;
+                    });
+            });
+
+            document.getElementById(`clear-all-${tabName}`).addEventListener('click', () => {
+                checkboxes.forEach(checkbox => {
+                    checkbox.checked = false;
+                });
+                const selectedOptions = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value);
+                const url = '{{ url_for("map") }}?tab=' + tabName + '&options=' + selectedOptions.join(',');
+
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        const mapElement = document.getElementById(`map-${tabName}`);
+                        mapElement.src = data.plot_url;
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
