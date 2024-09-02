@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const endDateInput = dateInputs[1];
 
     // Function to update the stats and map
-    var updateStatsAndMap = async () => {
+    const updateStatsAndMap = async () => {
         const startDate = startDateInput.value;
         const endDate = endDateInput.value;
         const statsUrlWithParams = `${statsUrl}?start_date=${startDate}&end_date=${endDate}`;
@@ -28,13 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch(statsUrlWithParams);
             const data = await response.json();
-            const summary = document.getElementById('summary');
+            const summary = document.getElementsByClassName('summary')[0];
             summary.innerHTML = `
-                <div class="grid-item">Mean Impact: <b>${data.mean_impact}</b></div>
-                <div class="grid-item">Median Impact: <b>${data.median_impact}</b></div>
-                <div class="grid-item">Max Impact: <b>${data.max_impact}</b></div>
-                <div class="grid-item">Min Impact: <b>${data.min_impact}</b></div><br><br>
-            `;
+            <div class="grid-item"><p data-value="${data.mean_impact}">Mean</p></div>
+            <div class="grid-item"><p data-value="${data.median_impact}">Median</p></div>
+            <div class="grid-item"><p data-value="${data.max_impact}">Max</p></div>
+            <div class="grid-item"><p data-value="${data.min_impact}">Min</p></div><br>
+        `;
         } catch (error) {
             console.error('Error fetching stats:', error);
         }
@@ -59,9 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
     dateInputs.forEach(dateInput => {
         dateInput.addEventListener('change', updateStatsAndMap);
     });
-
-    // Load the default stats and map
-    updateStatsAndMap();
 
     // Event listener for tab clicks
     document.querySelectorAll('.navbar a').forEach(tab => {
@@ -89,7 +86,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event listener for submit button. goes to /get_incidents endpoint with args n from slider, makes a modal with the df returned
     submitButton.addEventListener('click', async () => {
         const n = slider.value;
-        const url = `/get_incidents?n=${n}`;
+        const dateInputs = document.querySelectorAll('input[type="date"]');
+        const StartDate = dateInputs[0].value;
+        const EndDate = dateInputs[1].value;
+        const url = `/get_incidents?n=${n}&start_date=${StartDate}&end_date=${EndDate}`;
         try {
             const response = await fetch(url);
             const data = await response.json();
@@ -191,7 +191,7 @@ function loadTabContent(tabName, optionsUrl, mapUrl) {
                     </div>
                 </div>
                 <div class="container map-container">
-                    <img id="map-${tabName}" src="" alt="Map">
+                    <img id="map-${tabName}" src="">
                 </div>
             `;
             tabContentDiv.innerHTML = content;
@@ -211,16 +211,66 @@ function loadTabContent(tabName, optionsUrl, mapUrl) {
 
             const checkboxes = document.querySelectorAll(`#options-${tabName} input[type="checkbox"]`);
             const selectedOptions = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value);
+            const mapContainer = document.querySelector('.map-container');
+            mapContainer.classList.add('loading');
             return fetch(`${mapUrl}?tab=${tabName}&options=${selectedOptions.join(',')}&start_date=${StartDate}&end_date=${EndDate}`);
         })
         .then(mapResponse => mapResponse.json())
         .then(mapData => {
             const mapElement = document.getElementById(`map-${tabName}`);
+            if (mapElement) {
+            const mapContainer = document.querySelector('.map-container');
             mapElement.src = mapData.plot_url;
+            mapContainer.classList.remove('loading');
             attachCheckboxListeners(tabName, mapUrl);
+            }
+            else {
+                console.log('loading class added');
+            }
         })
         .catch(error => {
             console.error('Error loading tab content:', error);
+        }).then(() => {
+            const dateInputs = document.querySelectorAll('input[type="date"]');
+            const StartDate = dateInputs[0].value;
+            const EndDate = dateInputs[1].value;
+            const statsUrl = '/stats';
+            const mapUrl = '/map';
+            const updateStatsAndMap = async () => {
+                const startDate = StartDate;
+                const endDate = EndDate;
+                const statsUrlWithParams = `${statsUrl}?start_date=${startDate}&end_date=${endDate}`;
+        
+                try {
+                    const response = await fetch(statsUrlWithParams);
+                    const data = await response.json();
+                    const summary = document.getElementsByClassName('summary')[0];
+                    summary.innerHTML = `
+                    <div class="grid-item"><p data-value="${data.mean_impact}">Mean</p></div>
+                    <div class="grid-item"><p data-value="${data.median_impact}">Median</p></div>
+                    <div class="grid-item"><p data-value="${data.max_impact}">Max</p></div>
+                    <div class="grid-item"><p data-value="${data.min_impact}">Min</p></div><br>
+                `;
+                } catch (error) {
+                    console.error('Error fetching stats:', error);
+                }
+        
+                // Update the map for current tab
+                const currentTab = document.querySelector('.navbar a.active');
+                const tabName = currentTab.getAttribute('data-tab');
+                const selectedOptions = Array.from(document.querySelectorAll(`#options-${tabName} input[type="checkbox"]`)).filter(cb => cb.checked).map(cb => cb.value);
+                const mapUrlWithParams = `${mapUrl}?tab=${tabName}&options=${selectedOptions.join(',')}&start_date=${startDate}&end_date=${endDate}`;
+                try {
+                    const response = await fetch(mapUrlWithParams);
+                    const mapData = await response.json();
+                    const mapElement = document.getElementById(`map-${tabName}`);
+                    mapElement.src = mapData.plot_url;
+                }
+                catch (error) {
+                    console.error('Error fetching map data:', error);
+                }
+            };
+            updateStatsAndMap();
         });
 }
 
@@ -238,7 +288,7 @@ function attachCheckboxListeners(tabName) {
                 const response = await fetch(url);
                 const map_data = await response.json();
                 const mapElement = document.getElementById(`map-${tabName}`);
-                mapElement.src = map_data.plot_url;
+                if (mapElement) mapElement.src = map_data.plot_url;
             } catch (error) {
                 console.error('Error fetching map data:', error);
             }
@@ -270,7 +320,7 @@ function attachCheckboxListeners(tabName) {
         const dateInputs = document.querySelectorAll('input[type="date"]');
         const StartDate = dateInputs[0].value;
         const EndDate = dateInputs[1].value;
-        const url = `${mapUrl}?tab=${tabName}&options=${selectedOptions.join(',')}start_date=${StartDate}&end_date=${EndDate}`;
+        const url = `${mapUrl}?tab=${tabName}&options=${selectedOptions.join(',')}&start_date=${StartDate}&end_date=${EndDate}`;
 
         fetch(url)
             .then(response => response.json())

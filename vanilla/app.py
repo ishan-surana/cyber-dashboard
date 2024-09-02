@@ -1,13 +1,10 @@
-# Make a flask app that returns a plot on route /map. it should be a geopandas plot of the world. I will give the plotting logic.
 import geopandas as gpd
 import pandas as pd
 import matplotlib.pyplot as plt
 import io
 import base64
-from flask import Flask, jsonify, request, render_template, send_from_directory
+from flask import Flask, jsonify, request, render_template
 import altair as alt
-import os
-import numpy as np
 
 plt.switch_backend('Agg')
 app = Flask(__name__)
@@ -40,7 +37,12 @@ def get_stats():
 @app.route('/get_incidents')
 def get_incidents():
     n = int(request.args.get('n'))
-    data = df[['Date', 'State', 'Sector', 'Impact', 'Attack_Type']].sort_values('Impact', ascending=False).head(n)
+    start_date, end_date = request.args.get('start_date'), request.args.get('end_date')
+    if start_date == '' or end_date == '':
+        data = df[['Date', 'State', 'Sector', 'Impact', 'Attack_Type']]
+    else:
+        data = df[(pd.to_datetime(df['Date']) >= pd.to_datetime(start_date)) & (pd.to_datetime(df['Date']) <= pd.to_datetime(end_date))]
+    data = data[['Date', 'State', 'Sector', 'Impact', 'Attack_Type']].sort_values('Impact', ascending=False).head(n)
     data['Date'] = pd.to_datetime(data['Date']).dt.strftime('%Y-%m-%d')
     return jsonify(data.to_dict(orient='records'))
 
@@ -109,6 +111,7 @@ def map():
             tooltip=['Month', 'Counts:Q'])
     elif tab == 'Year':
         years = request.args.get('options')
+        print("Years: ", years)
         years = [int(year) for year in years.split(',')] if years else []
         filtered_df = filtered_df[filtered_df['Year'].isin(years)].groupby(tab).size().reset_index(name='Counts')
         chart = alt.Chart(filtered_df).mark_line(point=True).encode(
@@ -136,8 +139,7 @@ def map():
     img.seek(0)
     plot_url = base64.b64encode(img.getvalue()).decode()
     img.close()
-    os.remove('chart.png')
     return jsonify({'plot_url': f'data:image/png;base64,{plot_url}'})
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
