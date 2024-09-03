@@ -5,9 +5,9 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv('cyber_incidents.csv')
+df = pd.read_csv('streamlit/cyber_incidents.csv')
 features = df.drop(columns=['Date', 'Impact']).columns.to_list()
-india_map = gpd.read_file('map/Indian_states.shp')
+india_map = gpd.read_file('streamlit/map/Indian_states.shp')
 
 # Dashboard Title
 st.markdown("""
