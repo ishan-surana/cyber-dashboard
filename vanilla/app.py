@@ -46,6 +46,32 @@ def get_incidents():
     data['Date'] = pd.to_datetime(data['Date']).dt.strftime('%Y-%m-%d')
     return jsonify(data.to_dict(orient='records'))
 
+@app.route('/get_heatmap')
+def get_heatmap():
+    start_date, end_date = pd.to_datetime(request.args.get('start_date')), pd.to_datetime(request.args.get('end_date'))
+    tab, option = request.args.get('tab').replace(' ', '_'), request.args.get('option').replace(' ', '_')
+    if str(start_date) == 'NaT' or str(end_date) == 'NaT' or start_date == '' or end_date == '':
+        filtered_df = df
+    else:
+        filtered_df = df[(pd.to_datetime(df['Date']) >= pd.to_datetime(start_date)) & (pd.to_datetime(df['Date']) <= pd.to_datetime(end_date))]
+    heatmap_data = filtered_df.groupby([tab, option])['Impact'].mean().reset_index()
+    heatmap = alt.Chart(heatmap_data).mark_rect().encode(
+            x=alt.X(tab + ':O', axis=alt.Axis(labelColor='white', titleColor='white', tickColor='white', domainColor='white')),
+            y=alt.Y(option + ':O', axis=alt.Axis(labelColor='white', titleColor='white', tickColor='white', domainColor='white')),
+            color='Impact:Q',
+            tooltip=[tab, option, 'Impact']
+        ).properties(width=650, height=400
+        ).configure(background='black'
+        ).configure_legend(labelColor='white', titleColor='white')
+    img = io.BytesIO()
+    heatmap.save('heatmap.png')
+    with open('heatmap.png', 'rb') as f:
+        img.write(f.read())
+    img.seek(0)
+    plot_url = base64.b64encode(img.getvalue()).decode()
+    img.close()
+    return jsonify({'plot_url': f'data:image/png;base64,{plot_url}'})
+    
 @app.route('/map')
 def map():
     tab = request.args.get('tab').replace(' ', '_')

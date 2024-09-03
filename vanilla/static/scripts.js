@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch(statsUrlWithParams);
             const data = await response.json();
-            const summary = document.getElementsByClassName('summary')[0];
-            summary.innerHTML = `
+            const stats = document.getElementsByClassName('stats')[0];
+            stats.innerHTML = `
             <div class="grid-item"><p data-value="${data.mean_impact}">Mean</p></div>
             <div class="grid-item"><p data-value="${data.median_impact}">Median</p></div>
             <div class="grid-item"><p data-value="${data.max_impact}">Max</p></div>
@@ -53,7 +53,28 @@ document.addEventListener('DOMContentLoaded', () => {
         catch (error) {
             console.error('Error fetching map data:', error);
         }
-    };
+
+        // Update the heatmap for current tab
+        const tabs = document.querySelectorAll('.navbar a');
+        const currentTabName = document.querySelector('.navbar a.active').getAttribute('data-tab');
+        const dropdown = document.getElementById('tab-dropdown');
+        dropdown.innerHTML = '';
+        tabs.forEach(tab => {
+            const tabName = tab.getAttribute('data-tab');
+            if (tabName !== currentTabName) {
+                const option = document.createElement('option');
+                option.value = tabName;
+                option.textContent = tabName.replace('_', ' ');
+                dropdown.appendChild(option);
+            }
+        });
+        dropdown.value = dropdown.children[0].value;
+        const selectedTab = dropdown.value;
+        const heatmapResponse = await fetch(`/get_heatmap?start_date=${startDate}&end_date=${endDate}&tab=${currentTabName}&option=${selectedTab}`);
+        const heatmapData = await heatmapResponse.json();
+        const heatmapContainer = document.querySelector('.heatmap');
+        heatmapContainer.innerHTML = `<img src="${heatmapData.plot_url}" alt="Heatmap">`;
+    }
 
     // Event listener for date input changes
     dateInputs.forEach(dateInput => {
@@ -190,6 +211,22 @@ function loadTabContent(tabName, optionsUrl, mapUrl) {
                         </div>
                     </div>
                 </div>
+                <div class="container">
+                    <div class="checkbox-group-container container heatmap-container">
+                    <details>
+                        <summary>Heatmap</summary>
+                        <div class="dropdown-container">
+                            <label for="tab-dropdown">Select a tab:</label>
+                            <select id="tab-dropdown">
+                                <!-- Options will be added here -->
+                            </select>
+                        </div>
+                        <div class="heatmap">
+                            <img src="">
+                        </div>
+                    </details>
+                    </div>           
+                </div>     
                 <div class="container map-container">
                     <img id="map-${tabName}" src="">
                 </div>
@@ -213,6 +250,8 @@ function loadTabContent(tabName, optionsUrl, mapUrl) {
             const selectedOptions = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value);
             const mapContainer = document.querySelector('.map-container');
             mapContainer.classList.add('loading');
+            const heatmapContainer = document.querySelector('.heatmap');
+            heatmapContainer.classList.add('loading');
             return fetch(`${mapUrl}?tab=${tabName}&options=${selectedOptions.join(',')}&start_date=${StartDate}&end_date=${EndDate}`);
         })
         .then(mapResponse => mapResponse.json())
@@ -244,13 +283,51 @@ function loadTabContent(tabName, optionsUrl, mapUrl) {
                 try {
                     const response = await fetch(statsUrlWithParams);
                     const data = await response.json();
-                    const summary = document.getElementsByClassName('summary')[0];
-                    summary.innerHTML = `
+                    const stats = document.getElementsByClassName('stats')[0];
+                    stats.innerHTML = `
                     <div class="grid-item"><p data-value="${data.mean_impact}">Mean</p></div>
                     <div class="grid-item"><p data-value="${data.median_impact}">Median</p></div>
                     <div class="grid-item"><p data-value="${data.max_impact}">Max</p></div>
                     <div class="grid-item"><p data-value="${data.min_impact}">Min</p></div><br>
                 `;
+
+                // Populate dropdown with tab names excluding the current tab
+                const tabs = document.querySelectorAll('.navbar a');
+                const currentTabName = document.querySelector('.navbar a.active').getAttribute('data-tab');
+                const dropdown = document.getElementById('tab-dropdown');
+                dropdown.innerHTML = '';
+                tabs.forEach(tab => {
+                    const tabName = tab.getAttribute('data-tab');
+                    if (tabName !== currentTabName) {
+                        const option = document.createElement('option');
+                        option.value = tabName;
+                        option.textContent = tabName.replace('_', ' ');
+                        dropdown.appendChild(option);
+                    }
+                });
+                dropdown.value = dropdown.children[0].value;
+                // Fetch heatmap data for the selected tab
+                const selectedTab = dropdown.value;
+                const heatmapContainer = document.querySelector('.heatmap');
+                const heatmapResponse = await fetch(`/get_heatmap?start_date=${startDate}&end_date=${endDate}&tab=${currentTabName}&option=${selectedTab}`);
+                const heatmapData = await heatmapResponse.json();
+                heatmapContainer.innerHTML = `<img src="${heatmapData.plot_url}" alt="Heatmap">`;
+                heatmapContainer.classList.remove('loading');
+                // Handle dropdown change
+                dropdown.addEventListener('change', async (event) => {
+                    const selectedTab = event.target.value;
+                    if (selectedTab) {
+                        try {
+                            const response = await fetch(`/get_heatmap?start_date=${startDate}&end_date=${endDate}&tab=${currentTabName}&option=${selectedTab}`);
+                            const heatmapData = await response.json();
+                            const heatmapContainer = document.querySelector('.heatmap');
+                            heatmapContainer.innerHTML = `<img src="${heatmapData.plot_url}" alt="Heatmap">`;
+                        } catch (error) {
+                            console.error('Error fetching heatmap data:', error);
+                        }
+                    }
+                });
+                
                 } catch (error) {
                     console.error('Error fetching stats:', error);
                 }
