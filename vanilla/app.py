@@ -5,19 +5,36 @@ import io
 import base64
 from flask import Flask, jsonify, request, render_template
 import altair as alt
+import secrets
+from flask_cors import CORS
+from flask_wtf.csrf import CSRFProtect
+
+# instantiate the app securely
+app = Flask(__name__)
+app.config['SECRET_KEY'] = secrets.token_urlsafe(16)
+app.config['SESSION_COOKIE_NAME'] = secrets.token_urlsafe(32)
+app.config['SESSION_COOKIE_SECURE'] = True
+app.config['SESSION_COOKIE_HTTPONLY'] = True
+app.config['SESSION_COOKIE_SAMESITE'] = 'Strict'
+app.config['PREFERRED_URL_SCHEME'] = 'https'
+CORS(app)
+csrf = CSRFProtect(app)
 
 plt.switch_backend('Agg')
-app = Flask(__name__)
 df = pd.read_csv('data/cyber_incidents.csv')
 india_map = gpd.read_file('data/map/Indian_states.shp')
 
 @app.route('/')
 def index():
+    if request.args:
+        return jsonify({'error': 'Invalid request. Please visit the homepage to access the dashboard.'})
     return render_template('index.html', tabs=df.drop(columns=['Date', 'Impact']).columns.tolist())
 
 @app.route('/get_options')
 def get_options():
     tab = request.args.get('tab').replace(' ', '_')
+    if tab not in df.columns:
+        return jsonify({'error': 'Invalid tab. Please select a valid tab.'})
     return jsonify({'options': df[tab].unique().tolist()})
 
 @app.route('/stats')
@@ -27,21 +44,33 @@ def get_stats():
         filtered_df = df
     else:
         filtered_df = df[(pd.to_datetime(df['Date']) >= pd.to_datetime(start_date)) & (pd.to_datetime(df['Date']) <= pd.to_datetime(end_date))]
+    try:
+        pd.to_datetime(start_date)
+        pd.to_datetime(end_date)
+    except ValueError:
+        return jsonify({'error': 'Invalid date format. Please enter the date in the format YYYY-MM-DD'})
     mean_impact = filtered_df['Impact'].mean()
     median_impact = filtered_df['Impact'].median()
     max_impact = float(filtered_df['Impact'].max())
     min_impact = float(filtered_df['Impact'].min())
-    stats = {'mean_impact': mean_impact, 'median_impact': median_impact, 'max_impact': max_impact, 'min_impact': min_impact}
+    stats = {'mean_impact': round(mean_impact, 2), 'median_impact': round(median_impact, 2), 'max_impact': round(max_impact, 2), 'min_impact': round(min_impact, 2)}
     return jsonify(stats)
 
 @app.route('/get_incidents')
 def get_incidents():
     n = int(request.args.get('n'))
     start_date, end_date = request.args.get('start_date'), request.args.get('end_date')
+    if not n or not isinstance(n, int) or n < 1 or n > df.shape[0]:
+        return jsonify({'error': 'Invalid value for n. Please enter a positive integer.'})
     if start_date == '' or end_date == '':
         data = df[['Date', 'State', 'Sector', 'Impact', 'Attack_Type']]
     else:
         data = df[(pd.to_datetime(df['Date']) >= pd.to_datetime(start_date)) & (pd.to_datetime(df['Date']) <= pd.to_datetime(end_date))]
+    try:
+        pd.to_datetime(start_date)
+        pd.to_datetime(end_date)
+    except ValueError:
+        return jsonify({'error': 'Invalid date format. Please enter the date in the format YYYY-MM-DD'})
     data = data[['Date', 'State', 'Sector', 'Impact', 'Attack_Type']].sort_values('Impact', ascending=False).head(n)
     data['Date'] = pd.to_datetime(data['Date']).dt.strftime('%Y-%m-%d')
     return jsonify(data.to_dict(orient='records'))
@@ -54,6 +83,13 @@ def get_heatmap():
         filtered_df = df
     else:
         filtered_df = df[(pd.to_datetime(df['Date']) >= pd.to_datetime(start_date)) & (pd.to_datetime(df['Date']) <= pd.to_datetime(end_date))]
+    try:
+        pd.to_datetime(start_date)
+        pd.to_datetime(end_date)
+    except ValueError:
+        return jsonify({'error': 'Invalid date format. Please enter the date in the format YYYY-MM-DD'})
+    if tab not in df.columns or option not in df.columns:
+        return jsonify({'error': 'Invalid tab or option. Please select valid tab and option.'})
     heatmap_data = filtered_df.groupby([tab, option])['Impact'].mean().reset_index()
     heatmap = alt.Chart(heatmap_data).mark_rect().encode(
             x=alt.X(tab + ':O', axis=alt.Axis(labelColor='white', titleColor='white', tickColor='white', domainColor='white')),
@@ -80,11 +116,17 @@ def map():
         filtered_df = df
     else:
         filtered_df = df[(pd.to_datetime(df['Date']) >= pd.to_datetime(start_date)) & (pd.to_datetime(df['Date']) <= pd.to_datetime(end_date))]
+    try:
+        pd.to_datetime(start_date)
+        pd.to_datetime(end_date)
+    except ValueError:
+        return jsonify({'error': 'Invalid date format. Please enter the date in the format YYYY-MM-DD'})
+    if tab not in df.columns:
+        return jsonify({'error': 'Invalid tab. Please select a valid tab.'})
     if tab == 'State':
         states = request.args.get('options')
         states = states.split(',')
         filtered_df = filtered_df[filtered_df['State'].isin(states)]
-
         fig, ax = plt.subplots(1, 1, figsize=(10, 10))
         india_map.boundary.plot(ax=ax, color='black', facecolor='none')
         try:
@@ -105,8 +147,6 @@ def map():
             fig.subplots_adjust(right=0.85)  # Adjust the right side of the plot to make space for title
             cbar.ax.text(0.7, 1.05, 'Impact', ha='center', va='center', color='white', fontsize='13', fontweight='bold', transform=cbar.ax.transAxes)
         except Exception as e:
-            print(e)
-            # Print line number of error
             india_map.plot(ax=ax, color='gray', facecolor='none')
 
         fig.set_facecolor('None')
@@ -137,7 +177,6 @@ def map():
             tooltip=['Month', 'Counts:Q'])
     elif tab == 'Year':
         years = request.args.get('options')
-        print("Years: ", years)
         years = [int(year) for year in years.split(',')] if years else []
         filtered_df = filtered_df[filtered_df['Year'].isin(years)].groupby(tab).size().reset_index(name='Counts')
         chart = alt.Chart(filtered_df).mark_line(point=True).encode(
@@ -168,4 +207,4 @@ def map():
     return jsonify({'plot_url': f'data:image/png;base64,{plot_url}'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)

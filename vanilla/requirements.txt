@@ -5,3 +5,5 @@ geopandas
 matplotlib
 altair
 vl-convert-python
+flask_cors
+flask_wtf

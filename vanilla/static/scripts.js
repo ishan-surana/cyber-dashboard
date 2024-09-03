@@ -115,7 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch(url);
             const data = await response.json();
             const newWindow = window.open('', '_blank', 'width=800,height=600');
-            console.log(data);
             newWindow.document.write(`
                 <html>
                 <head>
@@ -263,9 +262,6 @@ function loadTabContent(tabName, optionsUrl, mapUrl) {
             mapContainer.classList.remove('loading');
             attachCheckboxListeners(tabName, mapUrl);
             }
-            else {
-                console.log('loading class added');
-            }
         })
         .catch(error => {
             console.error('Error loading tab content:', error);
@@ -318,6 +314,9 @@ function loadTabContent(tabName, optionsUrl, mapUrl) {
                     const selectedTab = event.target.value;
                     if (selectedTab) {
                         try {
+                            const dateInputs = document.querySelectorAll('input[type="date"]');
+                            const startDate = dateInputs[0].value;
+                            const endDate = dateInputs[1].value;
                             const response = await fetch(`/get_heatmap?start_date=${startDate}&end_date=${endDate}&tab=${currentTabName}&option=${selectedTab}`);
                             const heatmapData = await response.json();
                             const heatmapContainer = document.querySelector('.heatmap');
